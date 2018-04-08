@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hospital</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/html" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+
+	<!-- reveal js css -->
+	<link rel="stylesheet" href="./bower_components/reveal.js/css/reveal.css">
+	<link rel="stylesheet" href="./bower_components/reveal.js/css/theme/white.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="./bower_components/reveal.js/lib/css/zenburn.css">
+	
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? './bower_components/reveal.js/css/print/pdf.css' : './bower_components/reveal.js/css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+
+</head>
+<body>
+	
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section data-background-image="./imgs/cover.jpg">
+					<img src="./imgs/logo.png" alt="logo" />
+				</section>
+				<section data-background-image="./imgs/bg2.jpg">
+					<img src="./imgs/1.png">
+				</section>
+				<section>
+					<img width="50%" style="float:left;" src="./imgs/3.png">
+					<img width="50%" style="float:left;" src="./imgs/2.png">
+					<!-- <button onclick="test()">click</button> -->
+				</section>
+				<section data-background-image="./imgs/bg3.jpg">
+					<h1>calculate</h1>
+					<!-- <div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">男</a>
+							<a class="dropdown-item" href="#">女</a>
+							<div role="separator" class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Separated link</a>
+						</div>
+					</div>
+					<input type="text" class="form-control" aria-label="Text input with dropdown button">
+					</div>
+					<button type="button" class="btn btn-primary">Primary</button>
+					<input type="text">性別
+					<input type="text">實際年齡
+					<input type="text">事故現場
+					<input type="text">OHCA
+					<input type="text">ecode_type -->
+				</section>
+				<section data-background-image="./imgs/bg4.jpg">
+					<div id="ISSandAge"></div>
+				</section>
+				<section data-background-image="./imgs/bg3.jpg">
+					<a class="popup_iss" href="#">ISS</a>
+					<a class="popup_ais" href="#">AIS</a>
+					<a class="popup_gcs" href="#">GCS</a>
+				</section>
+					
+			</section>
+		</div>
+	</div>
+
+	
+	<script src="./bower_components/reveal.js/lib/js/head.min.js"></script>
+	<script src="./bower_components/reveal.js/js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			// Display controls in the bottom right corner
+			controls: false,
+			// Display a presentation progress bar
+			progress: false,
+			// Display the page number of the current slide
+			slideNumber: false,
+			// Enable keyboard shortcuts for navigation
+			keyboard: true,
+			// Enable the slide overview mode
+			overview: false,
+			// Enables touch navigation on devices with touch input
+			touch: true,
+			// Enable slide navigation via mouse wheel
+			mouseWheel: true,
+			// Hides the address bar on mobile devices
+			hideAddressBar: true,
+			// Transition style
+			transition: 'concave', // none/fade/slide/convex/concave/zoom
+			// Transition speed
+			transitionSpeed: 'slow', // default/fast/slow,
+			dependencies: [
+				{ src: './bower_components/reveal.js/plugin/markdown/marked.js' },
+				{ src: './bower_components/reveal.js/plugin/markdown/markdown.js' },
+				{ src: './bower_components/reveal.js/plugin/notes/notes.js', async: true },
+				{ src: './bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+	<script src="./bower_components/sweetalert2/dist/sweetalert2.all.min.js"></script>
+	<script src="./bower_components/plotly.js/dist/plotly.min.js"></script>
+
+	<script type="text/javascript" src="./lib/bundle.js"></script>
+	<script type="text/javascript" src="./js/plot_ISSHost.js"></script>
+	<script type="text/javascript" src="./js/popupView.js"></script>
+</body>
+</html>

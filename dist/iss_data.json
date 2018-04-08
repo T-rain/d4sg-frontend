@@ -1,0 +1,4795 @@
+{
+	"data":
+	[
+		{
+			"hospital_id": 1,
+			"ISS": 1,
+			"count(ISS)": 195
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 2,
+			"count(ISS)": 35
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 3,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 4,
+			"count(ISS)": 1269
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 5,
+			"count(ISS)": 110
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 6,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 8,
+			"count(ISS)": 78
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 9,
+			"count(ISS)": 1170
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 10,
+			"count(ISS)": 73
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 11,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 12,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 13,
+			"count(ISS)": 87
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 14,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 16,
+			"count(ISS)": 202
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 17,
+			"count(ISS)": 49
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 18,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 19,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 20,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 21,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 22,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 24,
+			"count(ISS)": 15
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 25,
+			"count(ISS)": 124
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 26,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 27,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 29,
+			"count(ISS)": 33
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 30,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 33,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 34,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 35,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 36,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 38,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 41,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 42,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 43,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 45,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 50,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 1,
+			"ISS": 57,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 1,
+			"count(ISS)": 1464
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 2,
+			"count(ISS)": 257
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 3,
+			"count(ISS)": 103
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 4,
+			"count(ISS)": 3257
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 5,
+			"count(ISS)": 339
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 6,
+			"count(ISS)": 113
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 8,
+			"count(ISS)": 117
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 9,
+			"count(ISS)": 1367
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 10,
+			"count(ISS)": 213
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 11,
+			"count(ISS)": 115
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 12,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 13,
+			"count(ISS)": 162
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 14,
+			"count(ISS)": 95
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 16,
+			"count(ISS)": 110
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 17,
+			"count(ISS)": 63
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 18,
+			"count(ISS)": 33
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 19,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 20,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 21,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 22,
+			"count(ISS)": 39
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 24,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 25,
+			"count(ISS)": 102
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 26,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 27,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 29,
+			"count(ISS)": 52
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 30,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 32,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 33,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 34,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 35,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 36,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 38,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 41,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 43,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 45,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 50,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 2,
+			"ISS": 75,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 1,
+			"count(ISS)": 76
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 2,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 3,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 4,
+			"count(ISS)": 571
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 5,
+			"count(ISS)": 81
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 6,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 8,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 9,
+			"count(ISS)": 406
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 10,
+			"count(ISS)": 49
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 11,
+			"count(ISS)": 38
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 12,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 13,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 14,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 16,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 17,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 18,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 19,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 20,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 21,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 22,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 24,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 25,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 26,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 27,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 29,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 30,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 33,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 35,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 38,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 41,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 43,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 45,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 50,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 59,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 3,
+			"ISS": 75,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 1,
+			"count(ISS)": 155
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 2,
+			"count(ISS)": 33
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 3,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 4,
+			"count(ISS)": 1090
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 5,
+			"count(ISS)": 144
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 6,
+			"count(ISS)": 41
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 8,
+			"count(ISS)": 59
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 9,
+			"count(ISS)": 1082
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 10,
+			"count(ISS)": 93
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 11,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 12,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 13,
+			"count(ISS)": 85
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 14,
+			"count(ISS)": 34
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 16,
+			"count(ISS)": 256
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 17,
+			"count(ISS)": 76
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 18,
+			"count(ISS)": 24
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 19,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 20,
+			"count(ISS)": 52
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 21,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 22,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 24,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 25,
+			"count(ISS)": 42
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 26,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 27,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 29,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 32,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 33,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 34,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 36,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 38,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 41,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 4,
+			"ISS": 50,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 1,
+			"count(ISS)": 317
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 2,
+			"count(ISS)": 63
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 3,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 4,
+			"count(ISS)": 668
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 5,
+			"count(ISS)": 150
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 6,
+			"count(ISS)": 65
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 8,
+			"count(ISS)": 74
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 9,
+			"count(ISS)": 1438
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 10,
+			"count(ISS)": 118
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 11,
+			"count(ISS)": 42
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 12,
+			"count(ISS)": 15
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 13,
+			"count(ISS)": 83
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 14,
+			"count(ISS)": 34
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 16,
+			"count(ISS)": 114
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 17,
+			"count(ISS)": 56
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 18,
+			"count(ISS)": 32
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 19,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 20,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 21,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 22,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 24,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 25,
+			"count(ISS)": 55
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 26,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 27,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 29,
+			"count(ISS)": 15
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 30,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 32,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 33,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 34,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 35,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 36,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 38,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 41,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 43,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 45,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 50,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 6,
+			"ISS": 75,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 1,
+			"count(ISS)": 427
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 2,
+			"count(ISS)": 57
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 3,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 4,
+			"count(ISS)": 2475
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 5,
+			"count(ISS)": 192
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 6,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 8,
+			"count(ISS)": 79
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 9,
+			"count(ISS)": 1478
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 10,
+			"count(ISS)": 103
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 11,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 12,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 13,
+			"count(ISS)": 123
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 14,
+			"count(ISS)": 45
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 16,
+			"count(ISS)": 403
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 17,
+			"count(ISS)": 124
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 18,
+			"count(ISS)": 42
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 19,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 20,
+			"count(ISS)": 77
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 21,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 22,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 24,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 25,
+			"count(ISS)": 106
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 26,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 27,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 29,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 30,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 32,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 33,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 34,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 35,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 36,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 38,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 41,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 42,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 43,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 45,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 50,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 7,
+			"ISS": 75,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 1,
+			"count(ISS)": 696
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 2,
+			"count(ISS)": 54
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 3,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 4,
+			"count(ISS)": 3856
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 5,
+			"count(ISS)": 378
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 6,
+			"count(ISS)": 57
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 8,
+			"count(ISS)": 234
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 9,
+			"count(ISS)": 3276
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 10,
+			"count(ISS)": 331
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 11,
+			"count(ISS)": 87
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 12,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 13,
+			"count(ISS)": 437
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 14,
+			"count(ISS)": 125
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 16,
+			"count(ISS)": 616
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 17,
+			"count(ISS)": 225
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 18,
+			"count(ISS)": 148
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 19,
+			"count(ISS)": 25
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 20,
+			"count(ISS)": 279
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 21,
+			"count(ISS)": 67
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 22,
+			"count(ISS)": 103
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 24,
+			"count(ISS)": 73
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 25,
+			"count(ISS)": 661
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 26,
+			"count(ISS)": 64
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 27,
+			"count(ISS)": 36
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 29,
+			"count(ISS)": 233
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 30,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 32,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 33,
+			"count(ISS)": 38
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 34,
+			"count(ISS)": 90
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 35,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 36,
+			"count(ISS)": 38
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 38,
+			"count(ISS)": 43
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 41,
+			"count(ISS)": 29
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 42,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 43,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 45,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 48,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 50,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 51,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 57,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 59,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 66,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 8,
+			"ISS": 75,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 1,
+			"count(ISS)": 68
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 2,
+			"count(ISS)": 38
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 3,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 4,
+			"count(ISS)": 1300
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 5,
+			"count(ISS)": 299
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 6,
+			"count(ISS)": 129
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 8,
+			"count(ISS)": 133
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 9,
+			"count(ISS)": 1366
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 10,
+			"count(ISS)": 234
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 11,
+			"count(ISS)": 71
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 12,
+			"count(ISS)": 53
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 13,
+			"count(ISS)": 134
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 14,
+			"count(ISS)": 141
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 16,
+			"count(ISS)": 248
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 17,
+			"count(ISS)": 146
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 18,
+			"count(ISS)": 34
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 19,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 20,
+			"count(ISS)": 37
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 21,
+			"count(ISS)": 50
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 22,
+			"count(ISS)": 41
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 24,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 25,
+			"count(ISS)": 57
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 26,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 27,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 29,
+			"count(ISS)": 54
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 30,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 33,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 34,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 35,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 36,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 38,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 41,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 42,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 43,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 45,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 48,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 50,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 59,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 9,
+			"ISS": 75,
+			"count(ISS)": 24
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 4,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 8,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 9,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 16,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 20,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 21,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 25,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 27,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 29,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 33,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 34,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 38,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 41,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 43,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 57,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 10,
+			"ISS": 75,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 1,
+			"count(ISS)": 494
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 2,
+			"count(ISS)": 47
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 4,
+			"count(ISS)": 3239
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 5,
+			"count(ISS)": 198
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 6,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 8,
+			"count(ISS)": 192
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 9,
+			"count(ISS)": 2165
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 10,
+			"count(ISS)": 145
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 11,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 12,
+			"count(ISS)": 32
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 13,
+			"count(ISS)": 358
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 14,
+			"count(ISS)": 72
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 16,
+			"count(ISS)": 314
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 17,
+			"count(ISS)": 48
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 18,
+			"count(ISS)": 45
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 19,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 20,
+			"count(ISS)": 108
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 21,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 22,
+			"count(ISS)": 50
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 24,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 25,
+			"count(ISS)": 176
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 26,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 27,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 29,
+			"count(ISS)": 47
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 30,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 32,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 33,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 34,
+			"count(ISS)": 29
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 36,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 38,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 41,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 43,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 45,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 48,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 50,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 11,
+			"ISS": 75,
+			"count(ISS)": 109
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 1,
+			"count(ISS)": 477
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 2,
+			"count(ISS)": 48
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 4,
+			"count(ISS)": 1338
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 5,
+			"count(ISS)": 204
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 6,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 8,
+			"count(ISS)": 114
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 9,
+			"count(ISS)": 3775
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 10,
+			"count(ISS)": 420
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 11,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 12,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 13,
+			"count(ISS)": 278
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 14,
+			"count(ISS)": 71
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 16,
+			"count(ISS)": 644
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 17,
+			"count(ISS)": 146
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 18,
+			"count(ISS)": 88
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 19,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 20,
+			"count(ISS)": 156
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 21,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 22,
+			"count(ISS)": 48
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 24,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 25,
+			"count(ISS)": 289
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 26,
+			"count(ISS)": 38
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 27,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 29,
+			"count(ISS)": 107
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 30,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 32,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 33,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 34,
+			"count(ISS)": 55
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 35,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 36,
+			"count(ISS)": 15
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 38,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 41,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 42,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 43,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 45,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 48,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 50,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 66,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 12,
+			"ISS": 75,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 1,
+			"count(ISS)": 172
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 2,
+			"count(ISS)": 136
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 3,
+			"count(ISS)": 128
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 4,
+			"count(ISS)": 840
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 5,
+			"count(ISS)": 265
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 6,
+			"count(ISS)": 214
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 8,
+			"count(ISS)": 55
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 9,
+			"count(ISS)": 728
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 10,
+			"count(ISS)": 254
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 11,
+			"count(ISS)": 193
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 12,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 13,
+			"count(ISS)": 82
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 14,
+			"count(ISS)": 96
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 16,
+			"count(ISS)": 114
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 17,
+			"count(ISS)": 114
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 18,
+			"count(ISS)": 120
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 19,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 20,
+			"count(ISS)": 44
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 21,
+			"count(ISS)": 60
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 22,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 24,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 25,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 26,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 27,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 29,
+			"count(ISS)": 37
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 30,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 32,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 33,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 34,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 36,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 38,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 41,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 42,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 43,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 45,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 13,
+			"ISS": 50,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 1,
+			"count(ISS)": 232
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 2,
+			"count(ISS)": 46
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 3,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 4,
+			"count(ISS)": 2547
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 5,
+			"count(ISS)": 287
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 6,
+			"count(ISS)": 55
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 8,
+			"count(ISS)": 146
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 9,
+			"count(ISS)": 1766
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 10,
+			"count(ISS)": 364
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 11,
+			"count(ISS)": 89
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 12,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 13,
+			"count(ISS)": 274
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 14,
+			"count(ISS)": 139
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 16,
+			"count(ISS)": 671
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 17,
+			"count(ISS)": 283
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 18,
+			"count(ISS)": 120
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 19,
+			"count(ISS)": 30
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 20,
+			"count(ISS)": 182
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 21,
+			"count(ISS)": 94
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 22,
+			"count(ISS)": 67
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 24,
+			"count(ISS)": 53
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 25,
+			"count(ISS)": 248
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 26,
+			"count(ISS)": 52
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 27,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 29,
+			"count(ISS)": 100
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 30,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 32,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 33,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 34,
+			"count(ISS)": 61
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 35,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 36,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 38,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 41,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 42,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 43,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 45,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 48,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 50,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 57,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 14,
+			"ISS": 75,
+			"count(ISS)": 38
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 1,
+			"count(ISS)": 277
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 2,
+			"count(ISS)": 44
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 3,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 4,
+			"count(ISS)": 860
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 5,
+			"count(ISS)": 48
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 6,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 8,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 9,
+			"count(ISS)": 850
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 10,
+			"count(ISS)": 46
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 11,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 12,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 13,
+			"count(ISS)": 71
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 14,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 16,
+			"count(ISS)": 144
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 17,
+			"count(ISS)": 34
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 18,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 19,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 20,
+			"count(ISS)": 55
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 21,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 22,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 24,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 25,
+			"count(ISS)": 49
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 26,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 27,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 29,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 30,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 32,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 33,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 34,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 36,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 38,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 41,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 43,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 45,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 50,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 54,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 15,
+			"ISS": 75,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 1,
+			"count(ISS)": 271
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 2,
+			"count(ISS)": 160
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 3,
+			"count(ISS)": 37
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 4,
+			"count(ISS)": 840
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 5,
+			"count(ISS)": 675
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 6,
+			"count(ISS)": 171
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 8,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 9,
+			"count(ISS)": 544
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 10,
+			"count(ISS)": 285
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 11,
+			"count(ISS)": 94
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 12,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 13,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 14,
+			"count(ISS)": 80
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 16,
+			"count(ISS)": 83
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 17,
+			"count(ISS)": 101
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 18,
+			"count(ISS)": 42
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 19,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 20,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 21,
+			"count(ISS)": 62
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 22,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 24,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 25,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 26,
+			"count(ISS)": 36
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 27,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 29,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 30,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 32,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 33,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 34,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 35,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 36,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 38,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 42,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 43,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 45,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 48,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 17,
+			"ISS": 75,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 1,
+			"count(ISS)": 113
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 2,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 3,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 4,
+			"count(ISS)": 1493
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 5,
+			"count(ISS)": 251
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 6,
+			"count(ISS)": 50
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 8,
+			"count(ISS)": 83
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 9,
+			"count(ISS)": 977
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 10,
+			"count(ISS)": 149
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 11,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 12,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 13,
+			"count(ISS)": 113
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 14,
+			"count(ISS)": 43
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 16,
+			"count(ISS)": 234
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 17,
+			"count(ISS)": 73
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 18,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 19,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 20,
+			"count(ISS)": 95
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 21,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 22,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 24,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 25,
+			"count(ISS)": 57
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 26,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 27,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 29,
+			"count(ISS)": 25
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 32,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 33,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 34,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 35,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 36,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 38,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 41,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 43,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 45,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 50,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 18,
+			"ISS": 57,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 1,
+			"count(ISS)": 921
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 2,
+			"count(ISS)": 61
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 3,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 4,
+			"count(ISS)": 3003
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 5,
+			"count(ISS)": 188
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 6,
+			"count(ISS)": 45
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 8,
+			"count(ISS)": 121
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 9,
+			"count(ISS)": 2351
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 10,
+			"count(ISS)": 252
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 11,
+			"count(ISS)": 52
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 12,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 13,
+			"count(ISS)": 342
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 14,
+			"count(ISS)": 101
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 16,
+			"count(ISS)": 500
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 17,
+			"count(ISS)": 194
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 18,
+			"count(ISS)": 87
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 19,
+			"count(ISS)": 29
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 20,
+			"count(ISS)": 202
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 21,
+			"count(ISS)": 46
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 22,
+			"count(ISS)": 62
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 24,
+			"count(ISS)": 59
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 25,
+			"count(ISS)": 207
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 26,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 27,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 29,
+			"count(ISS)": 118
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 30,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 32,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 33,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 34,
+			"count(ISS)": 55
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 35,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 36,
+			"count(ISS)": 32
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 38,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 41,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 43,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 45,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 48,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 50,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 54,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 57,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 66,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 19,
+			"ISS": 75,
+			"count(ISS)": 31
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 1,
+			"count(ISS)": 955
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 2,
+			"count(ISS)": 162
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 3,
+			"count(ISS)": 46
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 4,
+			"count(ISS)": 3259
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 5,
+			"count(ISS)": 554
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 6,
+			"count(ISS)": 94
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 8,
+			"count(ISS)": 169
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 9,
+			"count(ISS)": 2723
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 10,
+			"count(ISS)": 358
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 11,
+			"count(ISS)": 66
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 12,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 13,
+			"count(ISS)": 269
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 14,
+			"count(ISS)": 102
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 16,
+			"count(ISS)": 498
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 17,
+			"count(ISS)": 133
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 18,
+			"count(ISS)": 52
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 19,
+			"count(ISS)": 24
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 20,
+			"count(ISS)": 171
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 21,
+			"count(ISS)": 59
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 22,
+			"count(ISS)": 51
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 24,
+			"count(ISS)": 74
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 25,
+			"count(ISS)": 205
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 26,
+			"count(ISS)": 34
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 27,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 29,
+			"count(ISS)": 109
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 30,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 32,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 33,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 34,
+			"count(ISS)": 42
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 35,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 36,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 38,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 41,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 42,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 43,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 45,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 50,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 54,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 59,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 20,
+			"ISS": 75,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 1,
+			"count(ISS)": 480
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 2,
+			"count(ISS)": 309
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 3,
+			"count(ISS)": 57
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 4,
+			"count(ISS)": 1618
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 5,
+			"count(ISS)": 936
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 6,
+			"count(ISS)": 215
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 8,
+			"count(ISS)": 76
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 9,
+			"count(ISS)": 1269
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 10,
+			"count(ISS)": 612
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 11,
+			"count(ISS)": 83
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 12,
+			"count(ISS)": 34
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 13,
+			"count(ISS)": 125
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 14,
+			"count(ISS)": 269
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 16,
+			"count(ISS)": 135
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 17,
+			"count(ISS)": 191
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 18,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 19,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 20,
+			"count(ISS)": 40
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 21,
+			"count(ISS)": 66
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 22,
+			"count(ISS)": 44
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 24,
+			"count(ISS)": 33
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 25,
+			"count(ISS)": 45
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 26,
+			"count(ISS)": 43
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 27,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 29,
+			"count(ISS)": 48
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 30,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 32,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 33,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 34,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 35,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 36,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 38,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 41,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 42,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 43,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 45,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 48,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 50,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 54,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 21,
+			"ISS": 75,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 1,
+			"count(ISS)": 40
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 2,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 3,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 4,
+			"count(ISS)": 150
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 5,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 6,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 8,
+			"count(ISS)": 24
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 9,
+			"count(ISS)": 197
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 10,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 11,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 12,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 13,
+			"count(ISS)": 42
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 14,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 16,
+			"count(ISS)": 67
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 17,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 18,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 19,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 20,
+			"count(ISS)": 24
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 21,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 22,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 24,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 25,
+			"count(ISS)": 30
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 26,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 27,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 29,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 30,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 32,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 34,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 36,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 38,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 41,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 22,
+			"ISS": 43,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 1,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 2,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 4,
+			"count(ISS)": 26
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 5,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 9,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 10,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 11,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 13,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 16,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 23,
+			"ISS": 17,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 1,
+			"count(ISS)": 133
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 2,
+			"count(ISS)": 52
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 3,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 4,
+			"count(ISS)": 409
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 5,
+			"count(ISS)": 206
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 6,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 8,
+			"count(ISS)": 23
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 9,
+			"count(ISS)": 602
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 10,
+			"count(ISS)": 191
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 11,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 13,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 14,
+			"count(ISS)": 33
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 16,
+			"count(ISS)": 53
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 17,
+			"count(ISS)": 54
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 18,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 19,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 20,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 21,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 22,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 24,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 25,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 26,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 29,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 30,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 32,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 33,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 34,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 35,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 36,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 38,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 51,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 25,
+			"ISS": 75,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 1,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 2,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 4,
+			"count(ISS)": 86
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 5,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 6,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 8,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 9,
+			"count(ISS)": 47
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 10,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 13,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 16,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 17,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 18,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 20,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 21,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 25,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 26,
+			"ISS": 36,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 1,
+			"count(ISS)": 310
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 2,
+			"count(ISS)": 47
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 3,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 4,
+			"count(ISS)": 1772
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 5,
+			"count(ISS)": 145
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 6,
+			"count(ISS)": 41
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 8,
+			"count(ISS)": 69
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 9,
+			"count(ISS)": 728
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 10,
+			"count(ISS)": 92
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 11,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 12,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 13,
+			"count(ISS)": 93
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 14,
+			"count(ISS)": 29
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 16,
+			"count(ISS)": 131
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 17,
+			"count(ISS)": 51
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 18,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 19,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 20,
+			"count(ISS)": 45
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 21,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 22,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 24,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 25,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 27,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 29,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 32,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 33,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 34,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 36,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 38,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 41,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 48,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 50,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 27,
+			"ISS": 75,
+			"count(ISS)": 55
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 1,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 2,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 3,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 4,
+			"count(ISS)": 788
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 5,
+			"count(ISS)": 32
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 6,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 8,
+			"count(ISS)": 22
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 9,
+			"count(ISS)": 250
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 10,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 11,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 12,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 13,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 14,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 16,
+			"count(ISS)": 79
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 17,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 18,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 19,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 20,
+			"count(ISS)": 17
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 21,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 22,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 24,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 25,
+			"count(ISS)": 43
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 26,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 29,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 30,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 33,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 34,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 36,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 38,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 41,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 43,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 28,
+			"ISS": 75,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 1,
+			"count(ISS)": 101
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 2,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 3,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 4,
+			"count(ISS)": 518
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 5,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 6,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 8,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 9,
+			"count(ISS)": 365
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 10,
+			"count(ISS)": 36
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 11,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 12,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 13,
+			"count(ISS)": 30
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 14,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 16,
+			"count(ISS)": 47
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 17,
+			"count(ISS)": 24
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 18,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 19,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 20,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 21,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 22,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 24,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 25,
+			"count(ISS)": 14
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 26,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 27,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 29,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 30,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 33,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 34,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 35,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 36,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 38,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 41,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 43,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 29,
+			"ISS": 75,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 1,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 2,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 3,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 4,
+			"count(ISS)": 43
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 5,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 9,
+			"count(ISS)": 18
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 10,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 13,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 16,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 30,
+			"ISS": 17,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 1,
+			"count(ISS)": 159
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 2,
+			"count(ISS)": 113
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 3,
+			"count(ISS)": 30
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 4,
+			"count(ISS)": 711
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 5,
+			"count(ISS)": 135
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 6,
+			"count(ISS)": 27
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 8,
+			"count(ISS)": 28
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 9,
+			"count(ISS)": 460
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 10,
+			"count(ISS)": 56
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 11,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 12,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 13,
+			"count(ISS)": 50
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 14,
+			"count(ISS)": 19
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 16,
+			"count(ISS)": 45
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 17,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 18,
+			"count(ISS)": 15
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 19,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 20,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 21,
+			"count(ISS)": 8
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 22,
+			"count(ISS)": 12
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 24,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 25,
+			"count(ISS)": 35
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 26,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 27,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 29,
+			"count(ISS)": 6
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 30,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 32,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 33,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 34,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 36,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 42,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 45,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 32,
+			"ISS": 75,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 1,
+			"count(ISS)": 196
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 2,
+			"count(ISS)": 81
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 3,
+			"count(ISS)": 20
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 4,
+			"count(ISS)": 989
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 5,
+			"count(ISS)": 149
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 6,
+			"count(ISS)": 61
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 8,
+			"count(ISS)": 63
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 9,
+			"count(ISS)": 536
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 10,
+			"count(ISS)": 94
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 11,
+			"count(ISS)": 21
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 12,
+			"count(ISS)": 11
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 13,
+			"count(ISS)": 74
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 14,
+			"count(ISS)": 36
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 16,
+			"count(ISS)": 98
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 17,
+			"count(ISS)": 50
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 18,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 19,
+			"count(ISS)": 5
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 20,
+			"count(ISS)": 49
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 21,
+			"count(ISS)": 9
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 22,
+			"count(ISS)": 7
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 24,
+			"count(ISS)": 10
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 25,
+			"count(ISS)": 16
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 26,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 29,
+			"count(ISS)": 13
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 33,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 34,
+			"count(ISS)": 3
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 36,
+			"count(ISS)": 4
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 38,
+			"count(ISS)": 2
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 45,
+			"count(ISS)": 1
+		},
+		{
+			"hospital_id": 33,
+			"ISS": 54,
+			"count(ISS)": 1
+		}
+	]
+}

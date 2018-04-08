@@ -1,0 +1,8 @@
+.reveal section img {
+  margin: inherit;
+  background: inherit;
+  border: inherit;
+  box-shadow: inherit; }
+
+.popupText {
+  text-align: left; }

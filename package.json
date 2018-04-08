@@ -1,0 +1,39 @@
+{
+  "name": "d4sg-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdchang/frontend-starter-kit.git"
+  },
+  "author": "T-rain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdchang/frontend-starter-kit/issues"
+  },
+  "homepage": "https://github.com/kdchang/frontend-starter-kit#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "browserify": "^16.1.1",
+    "gulp": "^3.9.1",
+    "gulp-image": "^4.3.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.2.2",
+    "plotly.js": "^1.35.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "d4sg-final",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "T-rain"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "boostrap": "bootstrap#^4.0.0",
+    "reveal.js": "git://github.com/hakimel/reveal.js.git#^3.6.0",
+    "plotly.js": "^1.35.2",
+    "sweetalert2": "^7.18.0"
+  }
+}
