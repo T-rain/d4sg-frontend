@@ -1,18 +1,16 @@
 // 引入欲使用的套件模組
 import gulp from 'gulp';
-import sass from 'gulp-sass';//編譯sass
-import uglify from 'gulp-uglify';//壓縮js
-import rename from 'gulp-rename';
-
-import browserify from 'browserify';//Browserify lets you require('modules') in the browser by bundling up all of your dependencies
 import babelify from 'babelify';
-
+import browserify from 'browserify';//Browserify lets you require('modules') in the browser by bundling up all of your dependencies
 // 轉成 gulp 讀取的 vinyl（黑膠）流
 import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
 import sourcemaps from 'gulp-sourcemaps';
+
 import gutil from 'gulp-util';
 import image from 'gulp-image';
+import sass from 'gulp-sass';//編譯sass
+import uglify from 'gulp-uglify';//壓縮js
 
 // auto reload server
 var browserSync = require('browser-sync').create();
@@ -40,13 +38,8 @@ const jsPaths = {
 };
 
 const imagesPaths = {
-  src: `${dirs.src}/images/*`,
+  src: `${dirs.src}/images/**/*`,
   dest: `${dirs.dest}/imgs`
-};
-
-const iconsPaths = {
-  src: `${dirs.src}/images/icons/*`,
-  dest: `${dirs.dest}/imgs/icons`
 };
 
 const htmlPaths = {
@@ -65,7 +58,8 @@ gulp.task('styles', () => {
 // 編譯 JavaScript 轉譯、合併、壓縮任務，完成後送到 dist/js/bundle.js
 gulp.task('scripts', function(){
     return browserify({
-        entries: ['./src/scripts/main.js']
+        entries: ['./src/scripts/main.js'],
+        debug: true
     })
     .transform(babelify) // 轉譯
     .bundle()
@@ -78,7 +72,7 @@ gulp.task('scripts', function(){
     .pipe(gulp.dest(scriptsPaths.dest));
 });
 
-
+// 純前端不壓縮
 gulp.task('uglify', function() {
   return gulp.src(jsPaths.src)
       // .pipe(uglify())
@@ -96,11 +90,11 @@ gulp.task('images', function() {
     .pipe(gulp.dest(imagesPaths.dest));
 });
 
-gulp.task('icons',function(){
-  gulp.src(iconsPaths.src)
-    .pipe(image())
-    .pipe(gulp.dest(iconsPaths.dest));
-});
+// gulp.task('icons',function(){
+//   gulp.src(iconsPaths.src)
+//     .pipe(image())
+//     .pipe(gulp.dest(iconsPaths.dest));
+// });
 
 gulp.task('html',function(){
   gulp.src(htmlPaths.src)
@@ -113,9 +107,7 @@ gulp.task('watch',function () {
   gulp.watch(scriptsPaths.src, ['scripts']);
   gulp.watch(jsPaths.src, ['uglify']);
   gulp.watch(imagesPaths.src, ['images']);
-  gulp.watch(iconsPaths.src,['icons'])
   gulp.watch(htmlPaths.src, ['html']);
-
 });
 
 
@@ -131,7 +123,6 @@ gulp.task('server', function() {
   gulp.watch(`${scriptsPaths.dest}/*`).on("change", reload);
   gulp.watch(`${jsPaths.dest}/*`).on("change", reload);
   gulp.watch(`${imagesPaths.dest}/*`).on("change", reload);
-  gulp.watch(`${iconsPaths.dest}*`).on("change", reload);
   gulp.watch(`${htmlPaths.dest}/*`).on("change", reload);
 });
 
@@ -139,5 +130,5 @@ gulp.task('server', function() {
 // 兩種任務類型，第一種會啟動 server
 // gulp.task('default', ['scripts', 'styles', 'images','icons','html','watch','server']);
 gulp.task('default', ['watch','server']);
-gulp.task('compile', ['scripts','uglify', 'styles', 'images','html','watch','server']);
-gulp.task('build', ['scripts','uglify', 'styles', 'images','icons','html']);
+gulp.task('compile', ['scripts']);
+gulp.task('build', ['scripts','uglify', 'styles','html']);

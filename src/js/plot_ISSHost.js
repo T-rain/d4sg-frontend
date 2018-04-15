@@ -1,15 +1,18 @@
+function processStatus(response) {
+    // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
+    if (response.status === 200 || response.status === 0) {
+        return Promise.resolve(response)
+    } else {
+        return Promise.reject(new Error(response.statusText))
+    }
+}
 fetch('./iss_data.json')
+    .then(processStatus)
     .then(
         function (response) {
-            if (response.status !== 200) {
-                console.log('Looks like there was a problem. Status Code: ' +
-                    response.status);
-                return;
-            }
             // Examine the text in the response
             response.json().then(function (_data) {
                 let issHosArray = _data.data
-
                 let getHospitalData = (hospital_id)=>{
                     let issHosNumArray = issHosArray.filter(ele => ele.hospital_id === hospital_id);
 

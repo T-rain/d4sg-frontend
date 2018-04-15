@@ -3823,7 +3823,7 @@ gulp-image@^4.3.0:
     through2-concurrent "^1.1.1"
     zopflipng-bin "^4.0.0"
 
-gulp-rename@^1.2.0, gulp-rename@^1.2.2:
+gulp-rename@^1.2.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.2.2.tgz#3ad4428763f05e2764dec1c67d868db275687817"
 
@@ -4616,6 +4616,10 @@ isobject@^3.0.0, isobject@^3.0.1:
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+ityped@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ityped/-/ityped-1.0.1.tgz#69b643159b20fe72134946514c9a3499973cf4c9"
 
 jpeg-recompress-bin@^3.0.1:
   version "3.0.1"
@@ -7621,6 +7625,10 @@ svgo@^1.0.2:
     stable "~0.1.6"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+sweetalert2@^7.18.0:
+  version "7.18.0"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-7.18.0.tgz#10f1019aae0a842eebefcf5b06fe42ea1ef53e79"
 
 syntax-error@^1.1.1:
   version "1.4.0"
