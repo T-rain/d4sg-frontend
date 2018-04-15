@@ -15,7 +15,7 @@ Reveal.initialize({
     // Display the page number of the current slide
     slideNumber: false,
     // Push each slide change to the browser history
-    history: true,
+    history: false,
     // Enable keyboard shortcuts for navigation
     keyboard: true,
     // Enable the slide overview mode
