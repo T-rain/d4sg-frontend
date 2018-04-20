@@ -26,16 +26,24 @@ document.querySelectorAll('.abd').forEach(ele=>{
         swal.setDefaults({
             confirmButtonText: 'Next &rarr;',
             showCancelButton: true,
-            progressSteps: ['原因','性別', '年齡', '<i class="fa fa-heartbeat" aria-hidden="true"></i>']
+            progressSteps: ['原因','性別', '年齡', '<i class="fa fa-heartbeat" aria-hidden="true"></i>','星期']
         })
           
-        const reason = ["nouse","車禍", "跌倒摔落"]
-        let reasonObject = Object.assign({}, reason);
-        delete reasonObject['0'];
+        // const reason = ["nouse","車禍", "跌倒摔落"]
+        // let reasonObject = Object.assign({}, reason);
+        // delete reasonObject['0'];
+        let reasonObject = {
+            'car':"車禍",
+            'fall':"跌倒摔落"
+        }
         
         let ageArray = Array.apply(null, Array(100)).map((x, i) => i);
         let ageObject = Object.assign({}, ageArray);
         delete ageObject['0'];
+
+        let weekdayArray = [0,1,2,3,4,5,6,7];
+        let weekObject = Object.assign({}, weekdayArray);
+        delete weekObject['0'];
 
         var steps = [
             {
@@ -45,7 +53,7 @@ document.querySelectorAll('.abd').forEach(ele=>{
                 inputOptions: reasonObject,
             },
             {
-                text: '性別!',
+                title: '性別',
                 input: 'select',
                 inputOptions: {
                     '1': '男',
@@ -63,6 +71,11 @@ document.querySelectorAll('.abd').forEach(ele=>{
                     '0': '否',
                     '1': '是',
                 }
+            },{
+                title: '到院時間_星期',
+                text: '到院是星期幾呢',
+                input: 'select',
+                inputOptions: weekObject
             }
         ]
         
@@ -78,13 +91,15 @@ document.querySelectorAll('.abd').forEach(ele=>{
                     preConfirm: () => {
                       return new Promise((resolve,reject) => {
                         let answerArray = result.value;
-                        answerArray.splice(2, 0, 1);
+                        //insert 1 at arrival1
+                        answerArray.splice(3, 0, 1);
                         const payload = {
-                            "gender":parseInt(answerArray[0]),
-                            "age":parseInt(answerArray[1]),
-                            "arrival1":answerArray[2],
-                            "ohca": parseInt(answerArray[3]),
-                            "ecodetype": parseInt(answerArray[4]),
+                            "ecode_type": parseInt(answerArray[0]),
+                            "gender":parseInt(answerArray[1]),
+                            "age":parseInt(answerArray[2]),
+                            "arrival_1":answerArray[3],
+                            "OHCA": parseInt(answerArray[4]),
+                            "weekday": parseInt(answerArray[5]),
                         }
                         const data = JSON.stringify(payload);
                         console.log(data);
@@ -101,7 +116,6 @@ document.querySelectorAll('.abd').forEach(ele=>{
                             function (response) {
                                 response.json()
                                 .then((data)=>{
-                                    console.log(data);
                                     let predictionResult = data.prediction;
                                     resolve(predictionResult);
                                 }).catch((err)=>{
@@ -129,19 +143,19 @@ document.querySelectorAll('.abd').forEach(ele=>{
                   }).then((result) => {
                     console.log(result);
                     if (result.value) {
-                        let showType = ""
-                        let showText = ""
-                        const isOverSixteen = result.value === 1 ? true: false
-                        if(isOverSixteen){
-                            showType = 'warning'
-                            showText = "您的預測ISS大於16!!嚴重外傷!!可申請重大傷病卡";
-                        }else{
-                            showType = 'info'
-                            showText = "您的預測ISS小於16!!沒有超過!!不用太擔心";
-                        }
+                        // let showType = ""
+                        // let showText = ""
+                        // const isOverSixteen = result.value === 1 ? true: false
+                        // if(isOverSixteen){
+                        //     showType = 'warning'
+                        //     showText = "您的預測ISS大於16!!嚴重外傷!!可申請重大傷病卡";
+                        // }else{
+                        //     showType = 'info'
+                        //     showText = "您的預測ISS小於16!!沒有超過!!不用太擔心";
+                        // }
                         swal({
-                            type: showType,
-                            title: showText,
+                            type: 'warning',
+                            title: '以下為您的預測ISS數值可能大於16的機率: '+result.value,
                             html: '<p style="font-size:8px; color:#AAAAAA;">ISS指數評估一定有風險，在做任何決定前，先請醫生再評估免煩惱</p>'
                         })
                     }

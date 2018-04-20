@@ -4,7 +4,8 @@ import * as selftype from './itype'
 import * as AnimateCss from './animateCss'
 import swal from "sweetalert2"
 import './calculate_ISS'
-import './popupPlotly'
+import './calculate_Risk'
+// import './popupPlotly'
 import './popupHelpWindows'
 
 // for the reveal js setting
@@ -65,7 +66,7 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
         return;
     }
     // add it for keep the state before popup
-    let popupPages = [15,16,17,18];
+    let popupPages = [15,16,17,18,19];
     popupPages.forEach(page=>{
         if(event.indexh === 0 && event.indexv === page){
             currentState = Reveal.getState();
@@ -85,6 +86,7 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
         // 
         selftype.page3Type1();
     }
+
     
     // console.log(swal.isVisible());
     // console.log(event.indexv === 3 || event.indexv === 5)
@@ -125,4 +127,10 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 
     addAnimationCssOnSlide('calculate2',AnimateCss.toggleAnimateSwing,15);
     addAnimationCssOnSlide('calculate3',AnimateCss.toggleAnimateTada,16);
+});
+
+document.querySelectorAll(".slide_next").forEach(ele=>{
+    ele.onclick = function(){
+        Reveal.down();
+    }
 });
