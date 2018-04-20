@@ -1,6 +1,9 @@
 import swal from "sweetalert2"
 
 
+
+const api_server_location = "http://localhost:5000"
+
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
     if (response.status === 200 || response.status === 0) {
@@ -9,6 +12,7 @@ function processStatus(response) {
         return Promise.reject(new Error(response.statusText))
     }
 }
+
 /* 
 #gender: 男性:1;
 #age: 實際年齡
@@ -22,10 +26,10 @@ document.querySelectorAll('.abd').forEach(ele=>{
         swal.setDefaults({
             confirmButtonText: 'Next &rarr;',
             showCancelButton: true,
-            progressSteps: ['性別', '年齡', '&perp;','原因']
+            progressSteps: ['原因','性別', '年齡', '<i class="fa fa-heartbeat" aria-hidden="true"></i>']
         })
           
-        const reason = ["nouse","車禍", "跌倒摔落", "壓砸傷", "窒息", "穿刺切割傷" , "燒燙傷", "電擊傷", "中毒", "溺水", "自然災害", "自殺", "重大運輸事故"]
+        const reason = ["nouse","車禍", "跌倒摔落"]
         let reasonObject = Object.assign({}, reason);
         delete reasonObject['0'];
         
@@ -36,7 +40,12 @@ document.querySelectorAll('.abd').forEach(ele=>{
         var steps = [
             {
                 title: 'ISS檢傷計算機',
-                text: '先從性別開始吧!',
+                title: '先從受傷原因開始吧',
+                input: 'select',
+                inputOptions: reasonObject,
+            },
+            {
+                text: '性別!',
                 input: 'select',
                 inputOptions: {
                     '1': '男',
@@ -54,10 +63,6 @@ document.querySelectorAll('.abd').forEach(ele=>{
                     '0': '否',
                     '1': '是',
                 }
-            },{
-                title: '受傷原因',
-                input: 'select',
-                inputOptions: reasonObject,
             }
         ]
         
@@ -83,7 +88,7 @@ document.querySelectorAll('.abd').forEach(ele=>{
                         }
                         const data = JSON.stringify(payload);
                         console.log(data);
-                        fetch("http://localhost:5000/models/iss",{
+                        fetch(api_server_location+"/models/iss",{
                             headers: {
                               'Accept': 'application/json',
                               'Content-Type': 'application/json'

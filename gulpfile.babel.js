@@ -106,7 +106,6 @@ gulp.task('watch',function () {
   gulp.watch(stylesPaths.src, ['styles']);
   gulp.watch(scriptsPaths.src, ['scripts']);
   gulp.watch(jsPaths.src, ['uglify']);
-  gulp.watch(imagesPaths.src, ['images']);
   gulp.watch(htmlPaths.src, ['html']);
 });
 

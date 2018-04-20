@@ -2,10 +2,11 @@ import { init } from 'ityped'
   
 const oneElement = document.querySelector('#bg2-one')
 const twoElement = document.querySelector('#bg2-two')
-const tsElement = document.querySelector('#tellstory')
+const tsElement = document.querySelector('#bg3-one')
 
 
 export const page1Type1 = () => {
+    document.querySelector('#bg2-one').textContent = "";
     init(oneElement, { 
         /**
          * @param {Array} strings An array with the strings that will be animated 
@@ -67,6 +68,7 @@ export const page1Type1 = () => {
 }
 
 export const page1Type2 = () =>{
+    document.querySelector('#bg2-two').textContent = "";
     init(twoElement, { 
         strings: ['一人住院，全家倒'],
         typeSpeed:  100,
@@ -81,6 +83,7 @@ export const page1Type2 = () =>{
 
 export const page3Type1 = () =>{
     //need to do with reveal js api
+    document.querySelector('#bg3-one').textContent = "";
     init(tsElement, { 
         strings: ['來看個故事吧...'],
         typeSpeed:  100,

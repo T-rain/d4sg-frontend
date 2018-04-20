@@ -1,26 +1,14 @@
-import swal from "sweetalert2"
+// import swal from "sweetalert2"
 
-export const tell = ()=>{
+// export const tell = ()=>{
 
-    swal({
-        width:"80%",
-        html:`<p style="text-align:left;">
-        「年輕男性，機車自摔,沒有生命徵象！」<br/>
-        <br/>
-        正當我們為了一個難得清閒的夜晚竊喜之際，呼嘯的救護車伴隨匆忙的護理人員，將一位嚴重的外傷病患推進急救區，這是一個需要立即搶救的病患。<br/>
-        <br/>
-        病患的外觀明顯看見的是右下肢被車碾碎造成的骨折；病人的超音波檢查，顯示腹腔內有大量的出血；重度昏迷加上兩側不等大的瞳孔，可預期應該有顱內受傷或出血… 以上的場景，幾乎每天都會出現在急診室。 <br/>
-
-        而相較於一般的疾病，外傷的可怕即在於<b>遍佈全身的損傷</b>！ <br/>
-        <br/>
-        接下來的處置一如預期：第一線的外傷科醫師完成了第一時間的評估與復甦治療；緊接著另一位擔任外傷小組組長的外傷科醫師隨即抵達現場，與其他相關專科會診醫師討論後，擬訂要執行的手術方式與治療計畫，並由外傷科收治住院，其他相關科別共同照顧，進行多重外傷的整合性照護。 <br/>
-        <br/>
-        這些處置流程看來稀鬆平常，是因為有個嚴謹的外傷治療制度在背後支持著！多重科別的共同照護模式，經過多年的磨合而更加成熟，唯有如此完整的制度，才能提供外傷病患最佳的照護資源。<br/>
-        </p>
-        `,
-        showConfirmButton: false,
-        showCloseButton: true,
-    }).then((result) => {
-        console.log(result);
-    });
-}
+//     swal({
+//         width:"80%",
+//         html:`
+//         `,
+//         showConfirmButton: false,
+//         showCloseButton: true,
+//     }).then((result) => {
+//         console.log(result);
+//     });
+// }

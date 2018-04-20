@@ -1,3 +1,18 @@
 .popupText {
     text-align:left;
 }
+
+.reveal{
+    a {
+        &.iss_book{
+            color:rgb(87, 105, 101);
+        }
+    }
+} 
+
+.popup-plotly-disable{
+    display:none;
+}
+// .testPlotly{
+
+// }

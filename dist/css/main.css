@@ -1,3 +1,29 @@
+.bg {
+  background: linear-gradient(-15deg, #666666 0, transparent 75%, #999997 0); }
+
+.bg-gb {
+  background: linear-gradient(-12deg, #8e9ba7 0, transparent 75%, #8e9ba7 0); }
+
+.bg-b {
+  background: linear-gradient(-12deg, #66a4ce 0, transparent 75%, #66a4ce 0); }
+
+.reveal .page-bg-right {
+  margin-top: 15%;
+  margin-right: 8%;
+  float: right;
+  width: 70%;
+  text-align: left; }
+
+.reveal a {
+  color: #ff2c2dc9;
+  transition: color .15s ease;
+  transition-property: color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+  transition-delay: initial; }
+  .reveal a:hover {
+    color: #ec7272b6; }
+
 .reveal section img {
   margin: inherit;
   background: inherit;
@@ -30,6 +56,16 @@
 
 .popupText {
   text-align: left; }
+
+.reveal a.iss_book {
+  color: #576965; }
+
+.popup-plotly-disable {
+  display: none; }
+
+.reveal section .longtxt p {
+  text-align: left;
+  font-size: 28px; }
 
 .page-left {
   left: -8.33%;

@@ -113,7 +113,6 @@ document.querySelectorAll('.popup_iss').forEach(ele=>{
 
 document.querySelectorAll('.popup_ais').forEach(ele=>{
     ele.onclick = function(){
-        // changeFullPageScrollTo(false);
         swal({
             imageUrl: './imgs/icons/transfusion.png',
             imageWidth: 200,
@@ -125,19 +124,12 @@ document.querySelectorAll('.popup_ais').forEach(ele=>{
             html: "<p class='popupText'>簡易外傷分數（Abbreviated Injury Scale, AIS），是一種根據解剖位置發展的國際外傷分級系統。自1974年發展後，至今進行多次改版，目前最新版本為AIS2015（註）。<br/>AIS將身體分成六個解剖區域：頭/頸部、顏面部、胸部、腹部、肢體及外觀軟組織。依照受傷嚴重程度給予1至6分：1分為輕度、2分為中度、3分為重度、4分為嚴重、5分為危險、6分為極危險。<br/>許多研究證實AIS嚴重程度與生存（死亡）間具有相當強烈的相關性。（註：目前我國官方採用的版本為1990 年版，部分醫院採用AIS205update2008版。）</p>",
             confirmButtonText: '原來如此',
         })
-        
-        // .then((result) => {
-        //     changeFullPageScrollTo(true);
-        // });
-
-        // setBrowserButtonAction();
     }
 });
 
 
 document.querySelectorAll('.popup_gcs').forEach(ele=>{
     ele.onclick = function(){
-        // changeFullPageScrollTo(false);
         let gcsTableString = `
         <table class="table table-bordered text-center">
             <thead>
@@ -228,22 +220,14 @@ document.querySelectorAll('.popup_gcs').forEach(ele=>{
                     html: gcsTableString,
                     confirmButtonText: '原來如此'
                 })
-                // .then((result) => {
-                //     changeFullPageScrollTo(true);
-                // });
-            }else{
-                // changeFullPageScrollTo(true);
             }
         });
-        
-        // setBrowserButtonAction();
+    
     }
 });                        
 
 document.querySelectorAll('.popup_trauma_class').forEach(ele=>{
     ele.onclick = function(){
-        // changeFullPageScrollTo(false);
-
         swal({
             imageUrl: './imgs/icons/ambulance.png',
             imageWidth: 200,
@@ -255,19 +239,11 @@ document.querySelectorAll('.popup_trauma_class').forEach(ele=>{
             html: "<p class='popupText'>當病患至急診就醫時，檢傷站會先根據病患的主訴、疾病史、疾病的嚴重度與迫切性等進行分類，依照病情的輕重緩急，決定看診的優先順序，目的是希望將有限的緊急醫療資源，發揮最大的功效，使危急的病患及時獲得最妥適的醫療處置。<br/>新急診五級檢傷分類標準，將病患分為復甦急救、危急、緊急、次緊急、非緊急等5種等級，建議候診之時間分別為立即就診、10分鐘、30分鐘、60分鐘與120分鐘。為落實分級醫療，自民國106年4月15日起，於醫學中心急診檢傷1、2級病患，其部分負擔為450元，檢傷3、4、5級者則為550元。區域醫院與地區醫院不分級數，其部分負擔分別為300元與150元。參考網站：<a>https://goo.gl/rSbfVS</a></p>",
             confirmButtonText: '原來如此',
         })
-        
-        // .then((result) => {
-        //     changeFullPageScrollTo(true);
-        // });
-
-        // setBrowserButtonAction();
     }
 });
 
 document.querySelectorAll('.popup_ohca').forEach(ele=>{
     ele.onclick = function(){
-        // changeFullPageScrollTo(false);
-
         swal({
             imageUrl: './imgs/icons/icu-monitor.png',
             imageWidth: 200,
@@ -279,12 +255,75 @@ document.querySelectorAll('.popup_ohca').forEach(ele=>{
             html: "<p class='popupText'>OHCA（Out-of-Hospital Cardiac Arrest，到院前心肺休止）:是指病患送達醫院前出現心肺功能停止的狀況。創傷性心肺功能停止必須考慮出血與呼吸道問題，當腦部缺氧4分鐘，腦細胞開始受損，缺氧10分鐘則，則會造成無法復原的傷害行成植物人或甚至死亡，在處置上分秒必爭！</p>",
             confirmButtonText: '原來如此',
         })
-        
-        // .then((result) => {
-        //     changeFullPageScrollTo(true);
-        // });
-
-        // setBrowserButtonAction();
     }
 });
 
+document.querySelectorAll('.iss_book').forEach(ele=>{
+    ele.onclick = function(){
+        swal.setDefaults({
+            type: 'question',
+            title: '',
+            text: '',
+            animation: true,
+            showCloseButton: true,
+            showCancelButton: true,
+            showConfirmButton: true,
+            cancelButtonText: '下一個',
+            confirmButtonText: '上一個',
+            confirmButtonColor: '#28a745',
+            cancelButtonColor: '#3085d6',
+            // progressSteps: ['1', '2', '3','4','5','6']
+        })
+
+        let currentContext = 0;
+        let books = [
+            {
+                showConfirmButton: false,
+                title: '重大傷病卡可以在醫院辦理嗎？',
+                text: '可以，配合各家醫院的辦理程序，通常是服務台或是受理申請各式診斷證明書之櫃檯有專人可以協助辦理。另外也可以自己到健保署現場辦理。(健保署地址：台北市公園路15號之一5樓)。',
+            },
+            {
+                title: '第一次申請重大傷病卡需要附上什麼資料?',
+                text: '重大傷病申請書、健保卡、身分證明文件（正反面影本，兒童得以戶口名簿代替）、30日內之診斷證明書。',
+            },
+            {
+                title: '重大傷病卡多久可以拿到？',
+                text: '如果診斷病名範圍明確者，健保署就可當日核發。要是診斷病名範圍不明確者或特殊疾病等狀況，需由健保署醫師專業審查通過後才會寄發，大概需要10個工作日。',
+            },
+            {
+                title: '重大傷病申請後是不是有一張卡？',
+                text: '沒有另外一張卡，直接記載在健保卡裡面，健保署在94年3月起為預防掉卡的困擾，已將重大傷病卡的資料寫入在健保卡內以方便民眾就醫(精神疾病及愛滋病採取自由註記制度)',
+            },
+            {
+                title: '有重大傷病卡要怎麼使用？有什麼優惠？',
+                text: '要由醫師專業認定，治療處置的內容要符合重大傷病卡上的診斷，該次醫療費用可免部份負擔 。',
+            },
+            {
+                showCancelButton: false,
+                title: '有重大傷病卡後在就醫上還有什麼要注意的嗎？',
+                text: '不管看門診還是住院，請記得帶健保卡並告知住院、門診櫃承辦人員:『你有重大傷病卡』請他幫你讀取。',
+            },
+        ];
+
+
+        function swalISSbookAt(pageNumber){
+            swal(
+                books[pageNumber]
+            ).then((result)=>{
+                
+                if(pageNumber === 0){
+                    pageNumber = 6;
+                }
+                //result.value is left button
+                //result.dismiss === 'cancel' is right button
+                if(result.value){
+                    swalISSbookAt((pageNumber-1)%6)
+                }else if (result.dismiss === 'cancel'){
+                    swalISSbookAt((pageNumber+1)%6)
+                }
+            });
+        }
+        swalISSbookAt(0);
+
+    }
+});
