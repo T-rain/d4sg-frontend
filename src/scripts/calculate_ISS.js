@@ -1,8 +1,6 @@
 import swal from "sweetalert2"
 
-
-
-const api_server_location = "http://localhost:5000"
+const api_server_location = "http://d4sgtrauma.sytes.net:15308"
 
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
@@ -94,7 +92,7 @@ document.querySelectorAll('.abd').forEach(ele=>{
                         //insert 1 at arrival1
                         answerArray.splice(3, 0, 1);
                         const payload = {
-                            "ecode_type": parseInt(answerArray[0]),
+                            "ecode_type": answerArray[0],
                             "gender":parseInt(answerArray[1]),
                             "age":parseInt(answerArray[2]),
                             "arrival_1":answerArray[3],

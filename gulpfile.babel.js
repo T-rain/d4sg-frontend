@@ -105,7 +105,6 @@ gulp.task('html',function(){
 gulp.task('watch',function () {
   gulp.watch(stylesPaths.src, ['styles']);
   gulp.watch(scriptsPaths.src, ['scripts']);
-  gulp.watch(jsPaths.src, ['uglify']);
   gulp.watch(htmlPaths.src, ['html']);
 });
 
@@ -120,7 +119,6 @@ gulp.task('server', function() {
   });
   gulp.watch(`${stylesPaths.dest}/*`).on("change", reload);
   gulp.watch(`${scriptsPaths.dest}/*`).on("change", reload);
-  gulp.watch(`${jsPaths.dest}/*`).on("change", reload);
   gulp.watch(`${imagesPaths.dest}/*`).on("change", reload);
   gulp.watch(`${htmlPaths.dest}/*`).on("change", reload);
 });
@@ -130,4 +128,4 @@ gulp.task('server', function() {
 // gulp.task('default', ['scripts', 'styles', 'images','icons','html','watch','server']);
 gulp.task('default', ['watch','server']);
 gulp.task('compile', ['scripts']);
-gulp.task('build', ['scripts','uglify', 'styles','html']);
+gulp.task('build', ['images','scripts', 'styles','html']);

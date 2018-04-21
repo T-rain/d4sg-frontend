@@ -8,30 +8,17 @@
   background: linear-gradient(-12deg, #66a4ce 0, transparent 75%, #66a4ce 0); }
 
 .reveal .page-bg-right {
-  margin-top: 5%;
+  margin-top: 0;
   margin-right: 8%;
   float: right;
   width: 70%;
   text-align: left; }
 
-.reveal a {
-  color: #ff2c2dc9;
-  transition: color .15s ease;
-  transition-property: color;
-  transition-duration: 0.15s;
-  transition-timing-function: ease;
-  transition-delay: initial; }
-  .reveal a:hover {
-    color: #ec7272b6; }
-
-.reveal section img {
-  margin: inherit;
-  background: inherit;
-  border: inherit;
-  box-shadow: inherit; }
-
-.reveal section p {
-  text-align: left; }
+.bg-horizon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 .image-button {
   background-size: 300px 250px;
@@ -54,6 +41,38 @@
   align-items: center;
   justify-content: center; }
 
+.reveal h2 {
+  color: white;
+  font-size: 1.4em;
+  text-align: left;
+  margin-left: 28%; }
+
+.reveal section p {
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  margin-left: 5%; }
+  .reveal section p .import {
+    color: #ff807b; }
+
+.reveal a {
+  color: #ffffffc9;
+  transition: color .15s ease;
+  transition-property: color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  font-size: 30px;
+  margin-left: 5%; }
+  .reveal a:hover {
+    color: #FFDA44; }
+
+.reveal section img {
+  margin: inherit;
+  background: inherit;
+  border: inherit;
+  box-shadow: inherit; }
+
 .popupText {
   text-align: left; }
 
@@ -62,9 +81,6 @@
 
 .popup-plotly-disable {
   display: none; }
-
-div#plotly_d1 {
-  margin-top: 8%; }
 
 div#after_popup_plotly_d1 {
   margin-top: 5%; }

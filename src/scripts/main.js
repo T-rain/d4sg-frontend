@@ -5,8 +5,9 @@ import * as AnimateCss from './animateCss'
 import swal from "sweetalert2"
 import './calculate_ISS'
 import './calculate_Risk'
-// import './popupPlotly'
+import './popupPlotly'
 import './popupHelpWindows'
+import './popupStory'
 
 // for the reveal js setting
 // More info about config & dependencies:
@@ -80,12 +81,10 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
         selftype.page1Type1();
         selftype.page1Type2();
     }
-
-
-    if(event.indexh === 0 && event.indexv === 3){
-        // 
-        selftype.page3Type1();
-    }
+    // if(event.indexh === 0 && event.indexv === 3){
+    //     // 
+    //     selftype.page3Type1();
+    // }
 
     
     // console.log(swal.isVisible());

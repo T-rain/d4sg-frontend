@@ -81,19 +81,19 @@ export const page1Type2 = () =>{
     });
 }
 
-export const page3Type1 = () =>{
-    //need to do with reveal js api
-    document.querySelector('#bg3-one').textContent = "";
-    init(tsElement, { 
-        strings: ['來看個故事吧...'],
-        typeSpeed:  100,
-        startDelay: 500,
-        loop:       false,
-        showCursor: false,
-        placeholder: false,
-        disableBackTyping: true,
-        cursorChar: "|",
-    });
-}
+// export const page3Type1 = () =>{
+//     //need to do with reveal js api
+//     document.querySelector('#bg3-one').textContent = "";
+//     init(tsElement, { 
+//         strings: ['來看個故事吧...'],
+//         typeSpeed:  100,
+//         startDelay: 500,
+//         loop:       false,
+//         showCursor: false,
+//         placeholder: false,
+//         disableBackTyping: true,
+//         cursorChar: "|",
+//     });
+// }
 
 

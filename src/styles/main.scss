@@ -1,15 +1,5 @@
 @import "background";
 //for reveal image
-.reveal section img{
-    margin: inherit;
-    background: inherit;
-    border: inherit;
-    box-shadow: inherit;
-}
-
-.reveal section p {
-    text-align:left;
-}
 
 .image-button{
     background-size: 300px 250px;
@@ -36,6 +26,47 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.reveal {
+    h2{
+        color:white;
+        font-size: 1.4em;
+        text-align:left;
+        margin-left: 28%;
+    }
+
+    section p {
+        text-align:left;
+        color:white;
+        font-size: 30px;
+        margin-left: 5%;
+        .import{
+            color: rgb(255,128,123)
+        }
+    }
+
+    a{
+        color:#ffffffc9;
+        transition: color .15s ease;
+        transition-property: color;
+        transition-duration: 0.15s;
+        transition-timing-function: ease;
+        transition-delay: initial;
+        font-size: 30px;
+        margin-left: 5%;
+
+        &:hover{
+            color:#FFDA44;
+        }
+    }
+
+    section img{
+        margin: inherit;
+        background: inherit;
+        border: inherit;
+        box-shadow: inherit;
+    }
 }
 
 @import "cover";

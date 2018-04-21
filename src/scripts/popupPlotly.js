@@ -4,24 +4,25 @@ import * as popupPlotlyOnHtml from "./popupPlotlyOnHtml"
 import * as model from "./model"
 
 //Plotly picture methods
-const plotly_test = (_ele)=>{
-    Plotly.plot(_ele, [{
-        x: [1, 2, 3, 4, 5],
-        y: [1, 2, 4, 8, 16] }], { 
-        margin: { t: 0 } } 
-    );
-}
-        // const plotly_d1 = (_ele)=>{
-        //     Plotly.plot(_ele, [{
-        //         x: [1, 2, 3, 4, 5],
-        //         y: [1, 2, 4, 8, 16] }], { 
-        //         margin: { t: 0 } } 
-        //     );
-        // }
+// const plotly_test = (_ele)=>{
+//     Plotly.plot(_ele, [{
+//         x: [1, 2, 3, 4, 5],
+//         y: [1, 2, 4, 8, 16] }], { 
+//         margin: { t: 0 } } 
+//     );
+// }
+// const plotly_d1 = (_ele)=>{
+//     Plotly.plot(_ele, [{
+//         x: [1, 2, 3, 4, 5],
+//         y: [1, 2, 4, 8, 16] }], { 
+//         margin: { t: 0 } } 
+//     );
+// }
 
-popupPlotlyOnHtml.popupPlotly("testclick","test_takecare",plotly_test);
+// popupPlotlyOnHtml.popupPlotly("testclick","test_takecare",plotly_test);
 
 
+/*
 model.getD1Data()
     .then(function (data) {
 
@@ -343,3 +344,5 @@ model.getD5Data()
         console.log('GetDataWrong', err);
         // reject(err)
     });
+
+*/

@@ -1,5 +1,5 @@
 import swal from "sweetalert2"
-const api_server_location = "http://localhost:5000"
+const api_server_location = "http://d4sgtrauma.sytes.net:15308"
 
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
@@ -79,7 +79,7 @@ document.querySelector('#calculate2').onclick = function(){
         swal.resetDefaults()
         if (result.value) {
             swal({
-                title: '來看看預測的死亡風險',
+                title: '來看看預測的存活風險',
                 showCancelButton: true,
                 confirmButtonText: '好啊',
                 cancelButtonText: '不要',
@@ -90,7 +90,7 @@ document.querySelector('#calculate2').onclick = function(){
                         //insert 1 at arrival1
                         answerArray.splice(3, 0, 1);
                         const payload = {
-                            "ecode_type": parseInt(answerArray[0]),
+                            "ecode_type": answerArray[0],
                             "gender":parseInt(answerArray[1]),
                             "age":parseInt(answerArray[2]),
                             "arrival_1":answerArray[3],
@@ -132,8 +132,8 @@ document.querySelector('#calculate2').onclick = function(){
                     if (result.value) {
                         swal({
                             type: 'warning',
-                            title: '以下為您的預測ISS數值可能大於16的機率: '+result.value,
-                            html: '<p style="font-size:8px; color:#AAAAAA;">ISS指數評估一定有風險，在做任何決定前，先請醫生再評估免煩惱</p>'
+                            title: '您的存活機率: '+result.value,
+                            html: '<p style="font-size:8px; color:#AAAAAA;">存活機率僅供參考</p>'
                         })
                     }
                 })
