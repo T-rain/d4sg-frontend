@@ -4,25 +4,62 @@ import * as popupPlotlyOnHtml from "./popupPlotlyOnHtml"
 import * as model from "./model"
 
 //Plotly picture methods
-// const plotly_test = (_ele)=>{
-//     Plotly.plot(_ele, [{
-//         x: [1, 2, 3, 4, 5],
-//         y: [1, 2, 4, 8, 16] }], { 
-//         margin: { t: 0 } } 
-//     );
-// }
-// const plotly_d1 = (_ele)=>{
-//     Plotly.plot(_ele, [{
-//         x: [1, 2, 3, 4, 5],
-//         y: [1, 2, 4, 8, 16] }], { 
-//         margin: { t: 0 } } 
-//     );
-// }
-
-// popupPlotlyOnHtml.popupPlotly("testclick","test_takecare",plotly_test);
 
 
-/*
+const plotly_t1 = (_ele)=>{
+
+
+    const label = ["聘請外籍看護，全天候照顧", "白天聘請外籍看護，晚上家人輪替", "一位或多位家人輪流排班", "白天聘請本國看護，晚上家人輪替", "聘請本國看護，全天候照顧"]
+    const value = [0.0724,  0.0184, 0.6544, 0.0674, 0.1874]
+    let colorArray = ['#FF44AA', '#FF7744', '#00DD00', '#33CCFF', '#B94FFF']
+
+    let plotlyData = [
+        {
+            labels: label,
+            values: value,
+            type: 'pie',
+            marker: {
+                colors: colorArray,
+                line:{
+                    color:'#FFFFFF',
+                    width:1
+                }
+            },
+            text: label,
+            textinfo:'percent',
+            textposition: 'inside',
+            hoverinfo:"text"
+        }
+    ]
+
+    let layout = {
+        title: "國人住院陪病照顧方式",
+        autosize: false,
+        width:'1000px',
+        font: {
+            size: 14,
+        },
+        xaxis:{
+            showgrid:false, 
+            zeroline:false,
+            showticklabels:false
+        },
+        yaxis:{
+            showgrid:false, 
+            zeroline:false,
+            showticklabels:false
+        },
+        showlegend:true
+    }
+    Plotly.plot(_ele, plotlyData,layout,{
+        displayModeBar: false
+    });
+}
+
+popupPlotlyOnHtml.popupPlotly("plotly_t1_click","plotly_t1",plotly_t1);
+// popupPlotlyOnHtml.popupPlotly("plotly_d6_click","plotly_d6",plotly_t1,true);
+// popupPlotlyOnHtml.popupPlotly("plotly_d7_click","plotly_d7",plotly_t1,true);
+
 model.getD1Data()
     .then(function (data) {
 
@@ -98,9 +135,6 @@ model.getD2Data()
             let layout = {
                 title: "105年急診就診率",
                 autosize: true,
-                font: {
-                    size: 16,
-                },
                 xaxis:{
                     domain:[0.4,1],
                     title: "就診率(每十萬人)",
@@ -108,7 +142,10 @@ model.getD2Data()
                 yaxis:{
                     domain:[0.1, 1],
                     type: 'category',
-                }
+                },
+                font: {
+                    size: 10,
+                },
             }
             Plotly.plot(_ele, plotlyData ,layout, {
                 displayModeBar: false
@@ -345,4 +382,106 @@ model.getD5Data()
         // reject(err)
     });
 
-*/
+model.getD6Data()
+    .then(function (data) {
+        const draw_plotly_d6 = (_ele)=>{
+            console.log(data);
+            data.x = data.x.reverse();
+            data.y = data.y.reverse();
+            data.type='bar';
+            let colorArray = ['rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(222,45,38,0.8)', 'rgba(204,204,204,1)']
+            data.marker= {
+                color:colorArray,
+                width: 1
+            }
+            data.orientation='h'
+    
+            let plotlyData = [data];
+            let layout = {
+                title: "105年急診費用",
+                autosize: true,
+                xaxis:{
+                    domain:[0.3,1],
+                    title: "費用",
+                },
+                yaxis:{
+                    domain:[0.1, 1],
+                    type: 'category',
+                },font: {
+                    size: 10,
+                },
+            }
+            Plotly.plot(_ele, plotlyData ,layout, {
+                displayModeBar: false
+            });
+        }
+
+        popupPlotlyOnHtml.popupPlotly("plotly_d6_click","plotly_d6",draw_plotly_d6,true);
+
+    })
+    .catch(function (err) {
+        console.log('GetDataWrong', err);
+        // reject(err)
+    });
+
+model.getD7Data()
+    .then(function (data) {
+        const draw_plotly_d7 = (_ele)=>{
+            console.log(data);
+            data.x = data.x.reverse();
+            data.y = data.y.reverse();
+            data.type='bar';
+            let colorArray = ['rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+            'rgba(222,45,38,0.8)', 'rgba(204,204,204,1)']
+            data.marker= {
+                color:colorArray,
+                width: 1
+            }
+            data.orientation='h'
+    
+            let plotlyData = [data];
+            let layout = {
+                title: "105年急診件數",
+                autosize: true,
+                xaxis:{
+                    domain:[0.3,1],
+                    title: "件數",
+                },
+                yaxis:{
+                    domain:[0.1, 1],
+                    type: 'category',
+                },font: {
+                    size: 10,
+                },
+            }
+            Plotly.plot(_ele, plotlyData ,layout, {
+                displayModeBar: false
+            });
+        }
+
+        popupPlotlyOnHtml.popupPlotly("plotly_d7_click","plotly_d7",draw_plotly_d7,true);
+
+    })
+    .catch(function (err) {
+        console.log('GetDataWrong', err);
+        // reject(err)
+    });

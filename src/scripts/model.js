@@ -1,4 +1,4 @@
-const api_server_location = "http://d4sgtrauma.sytes.net:15308";
+const api_server_location = "http://localhost:5000";
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
     if (response.status === 200 || response.status === 0) {
@@ -50,4 +50,10 @@ export const getD4Data = ()=>{
 }
 export const getD5Data = ()=>{
     return getVizDataFromAPI("/d5");
+}
+export const getD6Data = ()=>{
+    return getVizDataFromAPI("/d6");
+}
+export const getD7Data = ()=>{
+    return getVizDataFromAPI("/d7");
 }

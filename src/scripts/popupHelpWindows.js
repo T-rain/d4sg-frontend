@@ -229,14 +229,14 @@ document.querySelectorAll('.popup_gcs').forEach(ele=>{
 document.querySelectorAll('.popup_trauma_class').forEach(ele=>{
     ele.onclick = function(){
         swal({
-            imageUrl: './imgs/icons/ambulance.png',
+            imageUrl: './imgs/icons/doctor (1).png',
             imageWidth: 200,
             imageHeight: 200,
             imageAlt: 'trauma_image',
             animation: true,
             showCloseButton: true,
             title:'檢傷分類',
-            html: "<p class='popupText'>當病患至急診就醫時，檢傷站會先根據病患的主訴、疾病史、疾病的嚴重度與迫切性等進行分類，依照病情的輕重緩急，決定看診的優先順序，目的是希望將有限的緊急醫療資源，發揮最大的功效，使危急的病患及時獲得最妥適的醫療處置。<br/>新急診五級檢傷分類標準，將病患分為復甦急救、危急、緊急、次緊急、非緊急等5種等級，建議候診之時間分別為立即就診、10分鐘、30分鐘、60分鐘與120分鐘。為落實分級醫療，自民國106年4月15日起，於醫學中心急診檢傷1、2級病患，其部分負擔為450元，檢傷3、4、5級者則為550元。區域醫院與地區醫院不分級數，其部分負擔分別為300元與150元。參考網站：<a>https://goo.gl/rSbfVS</a></p>",
+            html: "<p class='popupText'>當病患至急診就醫時，檢傷站會先根據病患的主訴、疾病史、疾病的嚴重度與迫切性等進行分類，依照病情的輕重緩急，決定看診的優先順序，目的是希望將有限的緊急醫療資源，發揮最大的功效，使危急的病患及時獲得最妥適的醫療處置。<br/>新急診五級檢傷分類標準，將病患分為復甦急救、危急、緊急、次緊急、非緊急等5種等級，建議候診之時間分別為立即就診、10分鐘、30分鐘、60分鐘與120分鐘。<br/>參考網站：<a href='https://goo.gl/rSbfVS'>https://goo.gl/rSbfVS</a></p>",
             confirmButtonText: '原來如此',
         })
     }
@@ -245,7 +245,7 @@ document.querySelectorAll('.popup_trauma_class').forEach(ele=>{
 document.querySelectorAll('.popup_ohca').forEach(ele=>{
     ele.onclick = function(){
         swal({
-            imageUrl: './imgs/icons/icu-monitor.png',
+            imageUrl: './imgs/icons/cpr-hand.jpg',
             imageWidth: 200,
             imageHeight: 200,
             imageAlt: 'ohca_image',
@@ -264,7 +264,8 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
             type: 'question',
             title: '',
             text: '',
-            animation: true,
+            animation: false,
+            customClass: 'animated fadeIn',
             showCloseButton: true,
             showCancelButton: true,
             showConfirmButton: true,
@@ -281,27 +282,39 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
                 showConfirmButton: false,
                 title: '重大傷病卡可以在醫院辦理嗎？',
                 text: '可以，配合各家醫院的辦理程序，通常是服務台或是受理申請各式診斷證明書之櫃檯有專人可以協助辦理。另外也可以自己到健保署現場辦理。(健保署地址：台北市公園路15號之一5樓)。',
+                animation: false,
+                customClass: 'animated fadeIn',
             },
             {
                 title: '第一次申請重大傷病卡需要附上什麼資料?',
                 text: '重大傷病申請書、健保卡、身分證明文件（正反面影本，兒童得以戶口名簿代替）、30日內之診斷證明書。',
+                animation: false,
+                customClass: 'animated fadeIn',
             },
             {
                 title: '重大傷病卡多久可以拿到？',
                 text: '如果診斷病名範圍明確者，健保署就可當日核發。要是診斷病名範圍不明確者或特殊疾病等狀況，需由健保署醫師專業審查通過後才會寄發，大概需要10個工作日。',
+                animation: false,
+                customClass: 'animated fadeIn',
             },
             {
                 title: '重大傷病申請後是不是有一張卡？',
                 text: '沒有另外一張卡，直接記載在健保卡裡面，健保署在94年3月起為預防掉卡的困擾，已將重大傷病卡的資料寫入在健保卡內以方便民眾就醫(精神疾病及愛滋病採取自由註記制度)',
+                animation: false,
+                customClass: 'animated fadeIn',
             },
             {
                 title: '有重大傷病卡要怎麼使用？有什麼優惠？',
                 text: '要由醫師專業認定，治療處置的內容要符合重大傷病卡上的診斷，該次醫療費用可免部份負擔 。',
+                animation: false,
+                customClass: 'animated fadeIn',
             },
             {
                 showCancelButton: false,
                 title: '有重大傷病卡後在就醫上還有什麼要注意的嗎？',
                 text: '不管看門診還是住院，請記得帶健保卡並告知住院、門診櫃承辦人員:『你有重大傷病卡』請他幫你讀取。',
+                animation: false,
+                customClass: 'animated fadeIn',
             },
         ];
 
@@ -324,6 +337,174 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
             });
         }
         swalISSbookAt(0);
-
     }
 });
+
+
+document.querySelector('#map_help').onclick = ()=>{
+    swal({
+        animation: false,
+        customClass: 'animated fadeIn',
+        showCloseButton: true,
+        width:'80%',
+        title:'地圖說明',
+        html:"<p style='text-align:left;'>說明1:<br/>地圖其圓圈顏色越深(紅色)代表相對於其他地區急救責任醫院越有群聚的狀況，圓圈內數值代表醫院家數。<br/>說明2:<br/>游標為醫院地址之定位，游標顏色綠色代表「一般」；橘色代表「中度」；紅色代表「重度」<br/>說明3：<br/>北部地區：臺北市、新北市、桃園市、新竹縣市與基隆市<br/>中部地區：臺中市、苗栗縣、南投縣、雲林縣與彰化縣<br/>南部地區：嘉義縣市、台南市、屏東縣與高雄縣<br/>東部地區：臺東縣、花蓮縣與宜蘭縣<br/>離島地區：金門縣、連江線與澎湖縣</p>",
+        confirmButtonText: '關閉',
+    })
+};
+
+// document.querySelector('#health_ten').onclick = ()=>{
+//     swal({
+//         animation: false,
+//         customClass: 'animated fadeIn',
+//         showCloseButton: true,
+//         title:'2016年全民健康保險門診醫療費用前十大疾病',
+//         html:`<table>
+//         <thead>
+//             <tr>
+//                 <th>疾病</th>
+//                 <th>門診醫療費用占率</th>
+//             </tr>
+//         </thead>
+//         <tbody>
+//             <tr>
+//                 <td>腎衰竭</td>
+//                 <td>10.33%</td>
+//             </tr>
+//             <tr>
+//                 <td>口腔、唾液腺和頜(顎)骨疾病</td>
+//                 <td>8.94%</td>
+//             </tr>
+//             <tr>
+//                 <td>急性上呼吸道感染(症)</td>
+//                 <td>5.62%</td>
+//             </tr>
+//             <tr>
+//                 <td>糖尿病</td>
+//                 <td>5.44%</td>
+//             </tr>
+//             <tr>
+//                 <td>高血壓性疾病</td>
+//                 <td>4.64%</td>
+//             </tr>
+//             <tr>
+//                 <td>腦血管疾病</td>
+//                 <td>1.94%</td>
+//             </tr>
+//             <tr>
+//                 <td>食道、胃和十二指腸疾病</td>
+//                 <td>1.90%</td>
+//             </tr>
+//             <tr>
+//                 <td>消化器官的惡性腫瘤</td>
+//                 <td>1.87%</td>
+//             </tr>
+//             <tr>
+//                 <td>(新陳)代謝(性)疾患</td>
+//                 <td>1.62%</td>
+//             </tr>
+//             <tr>
+//                 <td>乳房的惡性腫瘤</td>
+//                 <td>1.57%</td>
+//             </tr>
+//         </tbody>
+//     </table>`,
+//         confirmButtonText: '關閉',
+//     })
+// };
+
+// document.querySelector('#hospital_ten').onclick = ()=>{
+//     swal({
+//         animation: false,
+//         customClass: 'animated fadeIn',
+//         showCloseButton: true,
+//         title:'2016年全民健康保險住診醫療費用前十大疾病',
+//         html:`<table>
+//         <thead>
+//         <tr>
+//         <th>疾病</th>
+//         <th>住診醫療費用占率</th>
+//         </tr>
+//         </thead>
+//         <tbody>
+//         <tr>
+//         <td>流行性感冒[流感]及肺炎</td>
+//         <td>6.34%</td>
+//         </tr>
+//         <tr>
+//         <td>呼吸系統其他疾病</td>
+//         <td>5.89%</td>
+//         </tr>
+//         <tr>
+//         <td>缺血性心臟病</td>
+//         <td>4.88%</td>
+//         </tr>
+//         <tr>
+//         <td>因其他特定健康照護而接觸者</td>
+//         <td>4.67%</td>
+//         </tr>
+//         <tr>
+//         <td>消化器官的惡性腫瘤</td>
+//         <td>4.34%</td>
+//         </tr>
+//         <tr>
+//         <td>腦血管疾病</td>
+//         <td>4.01%</td>
+//         </tr>
+//         <tr>
+//         <td>精神分裂(症)、準精神分裂(症)性和妄想性疾患(障礙、病症)</td>
+//         <td>3.84%</td>
+//         </tr>
+//         <tr>
+//         <td>其他細菌性疾病</td>
+//         <td>3.25%</td>
+//         </tr>
+//         <tr>
+//         <td>其他類型心臟疾病</td>
+//         <td>2.70%</td>
+//         </tr>
+//         <tr>
+//         <td>關節(病)症</td>
+//         <td>2.07%</td>
+//         </tr>
+//         </tbody>
+//         </table>`,
+//         confirmButtonText: '關閉',
+//     })
+// };
+
+document.querySelector('#help_trauma').onclick = ()=>{
+    swal({
+        animation: false,
+        customClass: 'animated fadeIn',
+        showCloseButton: true,
+        width:'80%',
+        title:'外傷登錄系統的感傷',
+        html:"<p style='text-align:left;'>近年來「精準醫學」(Precision Medicine)為之風潮，精準醫學即為個別病人量身訂製出最佳的治療方案。導入如此的觀念，延伸到公共衛生學上，推行「精準公衛」(Precision Public Heath），提供政策擬定的精準方向，讓箭射在箭靶紅心點上，全力促進公眾健康！ 然而，精準公衛始於建構精準的登錄系統。以衛生福利部公佈的資料所知，民國105年國人十大死因中，`事故傷害排名第五，且居 1-14 歲及 15-24 歲死亡人口之首位死因，為 25-44 歲之死因第 2 位`。想要像剝洋蔥一樣查看究竟，就得仰賴完整的外傷資料庫。外傷登錄是外傷資料庫系統中最重要的一環，民國94年台灣外傷醫學會啟用外傷登錄系統，各醫院採自願性自主參與，直至現今，以逾十餘年，仍是如此！詳實的資料建立取決於訓練有術的外傷登錄師。外傷登錄師必須通過嚴謹的培訓，才能取的證照，但可惜的是，不管是登錄系統的建立或是登錄師的訓練，皆由學會一手統籌，不見政府蹤影。當國際社會已經成功地從外傷歷史資料萃取洞見時，我們政府卻連事故傷害流行病學資料也無法得知，更遑論要進行問題發掘及對策改善。外傷登錄師必須能全盤通透病人到院前、住院中以及出院後所有醫療處置，並詳細盤查所有檢查報告、病歷資料，依AIS評分標準，給予該病人最確實的ISS，此工作繁重，有時就像偵探一樣，得用放大鏡檢視所有的蛛絲馬跡，就是不肯放過任何一個小傷；有時也得打破砂鍋問到底，就是要確認傷害的程度。這種差事吃力不討好，要有豐富的醫學知識與臨床工作經驗，還要能善於溝通，但站在醫院的立場上，只不過是個登打資料的人，為了減少人事成本，往往以最低階的行政人員薪資聘用，或是以計畫方式一年一聘，有的醫院則是以現有人力來兼職，不穩定的人力流動，大大影響外傷登錄的資料品質。再者，外傷登錄系統的維護經費龐大，學會已無能力負擔，目前只剩下電腦單機版可使用，所有資料必須一一登打，無法與醫院資訊做串接，耗時又耗力，且無法減少人為疏失。欄位也是十幾年前的設計，有些已不符現況，即使輸入資料，該資料也無法分析。在資訊爆炸的時代裡，很難想像這種狀況還發生在台灣！ 要計算外傷嚴重分數(ISS)憑藉於簡易外傷分數(AIS)。為了解交通事故造成的外傷型態與嚴重度，美國汽車醫學發展協會在1969年推出外傷嚴重度計算標準(AIS)，以做為改善汽車安全設計之依據。此版本經過多年修訂，最新版本為AIS2015年版。但您不可不知的是，衛生福利部中央健康保險署公告的版本是西元1990年發布的，要與世界接軌還望塵莫及呢！在這種輪迴旋渦裡，資料庫中充斥著不可盡信的資料。外傷登錄系統最終只剩下醫院評鑑時可以交代的功能了！</p>",
+        confirmButtonText: '關閉',
+    })
+};
+
+document.querySelector('#help_data').onclick = ()=>{
+    swal({
+        animation: false,
+        customClass: 'animated fadeIn',
+        showCloseButton: true,
+        width:'80%',
+        title:'資料整理的痛苦',
+        html:"<p style='text-align:left;'>資料的取得是先由外傷醫學會發函給各家醫院，有些醫院很快速就回覆了，有些醫院則要一層又一層地請示過，最後回覆因為OOXX的原因，所以不便提供…原發函給重度與中度急救責任醫院，共計47家，最後有33家醫院提供資料，但資料符合最低要求者只剩30家醫院。著手清洗這些資料，是痛苦的開始，也是最痛苦的時刻！這些資料來自30家不同的醫院，雖然學會有提供外傷登錄單機版供使用，但有些醫院鑑於個別因素，紛紛發展自己的登錄系統，而這些登錄系統匯出的欄位格式卻非當初學會所規範的樣式。光是時間格式，就有好幾種，有的欄位名稱取的名稱還不一樣，這時就得跟資料提供的醫院聯繫，以釐清欄位定義。這來來回回，真是勞心勞力啊！忍不住想跟所有的醫院大聲吶喊「資料欄位定義與格式的一致性，是相當重要的啊！」 在整理資料的過程中，仍會看見有異常資料或遺漏的部分，面對這樣的資料，就只能忍痛捨棄。登錄一件完整的案件，快則30分鐘，慢則一小時，甚至耗時半天，而以重度急救責任醫院來說，一天收案約10件，日積月累之下，沉重的工作負荷，能理解外傷登錄師的辛苦。若登錄系統能與醫院系統接駁，自然可減少重工，也可降低人為錯誤，在資料的品質上就可大大提升！工欲善其事，必先利其器，有好的登錄系統，就是好的開始。政府可以花大把銀子建置癌症登錄系統，是否可以撥一些零頭來支持辛苦耕耘的外傷登錄系統？！</p>",
+        confirmButtonText: '關閉',
+    })
+};
+
+document.querySelector('#help_prevent').onclick = ()=>{
+    swal({
+        animation: false,
+        customClass: 'animated fadeIn',
+        showCloseButton: true,
+        width:'80%',
+        title:'資料整理的痛苦',
+        html:"<p style='text-align:left;'>車禍:<br/>  兒童:兒童沒有乘坐安全座椅發生車禍的死亡率是有乘坐的8倍！36公斤以下之兒童，搭乘汽車時，記得正確地使用安全座椅並繫安全帶！<br/>  成人:有駕照了嗎？沒有就趕快去考吧！騎機車要戴安全帽，搭乘汽車要繫安全帶，不要再忘記了！<br/>  老人:深夜出門要穿淺色衣服「高齡駕駛人駕照管理新制」上路，75歲以上的駕駛人須做「體格檢查」和「認知功能測驗」，合格後才能換發有效期3年的駕照<br/>跌倒:<br/>兒童:照顧者務必提供安全的環境：護欄、無絆倒物<br/>成人:	大多是因為工作引起，務必要做好防護措施<br/>老人:保證安全的環境：光亮的照明、無絆倒物、保持地面乾燥<br/>壓砸傷<br/>兒童:照顧者務必提供安全的環境：家具固定、防護設備、不要使用桌巾<br/>成人:大多是因為工作引起，務必要做好防護措施<br/>老人:保證安全的環境：家具固定、防護設備、用具的安全<br/>穿刺切割傷:<br/>兒童:危險物要好好存放，並教導兒童正確使用剪刀等物品照顧者務必提供安全的環境<br/>成人:大多是因為工作引起，務必要做好防護措施<br/>老人:保證安全的環境，提供光亮的照明設備<br/>燒燙傷<br/>兒童:照顧者務必提供安全的環境：飲水機的安全設計、洗澡時要先放冷水再放熱水<br/>成人:注意環境的安全，不要輕忽危險<br/>老人:照顧者務必提供安全的環境：提供光亮的照明設備洗澡時要先放冷水再放熱水</p>",
+        confirmButtonText: '關閉',
+    })
+};

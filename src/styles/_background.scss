@@ -10,6 +10,10 @@ background: linear-gradient(-12deg,rgb(122, 145, 167) 0, transparent 75%,rgb(122
     background: linear-gradient(-12deg, rgb(102, 164, 206) 0, transparent 75%, rgb(102, 164, 206) 0);
 }
 
+.bg-gray{
+    background: linear-gradient(-40deg, #050505 13%, #504c4c 35%, #353533 60%);
+}
+
 .reveal {
     .page-bg-right {
         margin-top: 0;

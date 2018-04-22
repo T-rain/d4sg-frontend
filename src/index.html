@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Hospital</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	<!-- bootstrap - Latest compiled and minified CSS -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-	<!-- Latest compiled and minified CSS -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
 	<!-- reveal js css -->
 	<link rel="stylesheet" href="./bower_components/reveal.js/css/reveal.css">
@@ -18,13 +14,15 @@
 	<link rel="stylesheet" href="./bower_components/animate.css/animate.min.css">
 
 	<!-- fontawesome5.css -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+	    crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 
 </head>
+
 <body>
-	
+
 	<div class="reveal">
 		<div class="slides">
 			<section>
@@ -37,138 +35,249 @@
 					<span id="bg2-two" style="color:white"></span>
 				</section>
 				<section data-background-image="./imgs/background/IMG_4724.jpg">
-					<h2>生命年數損失最多</h2>
+					<h2>一人住院、全家倒</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
-					<div id="plotly_d3" class="page-bg-right">
-						<p>在台灣，「一人住院、全家倒」的情形很普遍，根據2017年家庭照顧者關懷總會的調查，國人住院陪病照顧方式中，有65.4％由一或多位家屬輪流照顧，家人必須因此請假或犧牲工作；25.9％的家庭會聘請本國或外籍看護全天候照顧，每日平均聘僱看護得花上2960元。不管是家屬自己照顧或是聘請看護，對家屬來說都是一筆可觀的經濟負擔...</p>
-						<a id="plotly_d3_click" href="javascript:void(0)">國人住院陪病照顧方式</a>
+					<div id="plotly_t1" class="page-bg-right">
+						<p>在台灣，一人住院、全家倒的情形很普遍，根據2017年家庭照顧者關懷總會的調查，國人住院陪病照顧方式中，有65.4％由一或多位家屬輪流照顧，家人必須因此請假或犧牲工作；25.9％的家庭會聘請本國或外籍看護全天候照顧，<span class="import">每日平均聘僱看護得花上2960元，一個月近10萬元，等於說一年需得花上百萬元</span>。不管是家屬自己照顧或是聘請看護，對家屬來說都是一筆可觀的經濟負擔......</p>
+						<i class="fas fa-hospital"></i>
+						<a id="plotly_t1_click" href="javascript:void(0)">國人住院陪病照顧方式</a>
 					</div>
 				</section>
-				<section data-background-image="./imgs/background/IMG_00111.png"> 
-					<div class="longtxt">
-						<p>
-							鈴！鈴！鈴！急促的電話鈴響，就在兒童節這天的清晨6:00響起。「喂，我是屏東OO醫院，有一位15歲男童車禍，下半身被輾過，骨盆腔大量出血，腹部內臟破損，需要緊急手術，我們醫院沒有兒科加護病房，可以轉過去嗎？」苦惱的是，我院的兒科加護病房也都滿床，該拒絕嗎?<br/>
-							<a id="popupStory" href="javascript:void(0)" style="font-size: 30px ;margin-left: 0"><更多詳情></a>
-						</p>
+				<section data-background-color="black">
+					<h2>ㄧ人倒，是扣分</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>即使我們了解生病住院會深遠影響ㄧ家大小，但事故傷害並不像其他疾病，讓你有餘裕準備。它通常在你喪失危機警覺，或沉浸冒險歡樂時偷襲你。它奪走的往往是狀盛生產力，而加重我們社會長照負擔。</p>
+					</div>
+				</section>
+				<section data-background-image="./imgs/background/IMG_00111.jpg">
+					<h2>小故事</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>鈴！鈴！鈴！急促的電話鈴響，就在兒童節這天的清晨6:00響起。「喂，我是屏東OO醫院，有一位15歲男童車禍，下半身被輾過，骨盆腔大量出血，腹部內臟破損，需要緊急手術，我們醫院沒有兒科加護病房，可以轉過去嗎？」苦惱的是，我院的兒科加護病房也都滿床，該拒絕嗎?</p>
+						<a id="popupStory" href="javascript:void(0)" style="font-size: 30px ;margin-left: 5%">
+							<更多詳情>
+						</a>
 					</div>
 				</section>
 				<section data-background-image="./imgs/background/IMG_3678.jpg">
 					<h2>生命年數損失最多</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div id="plotly_d1" class="page-bg-right">
-						<p>根據衛福部公布105年死因統計結果分析中，國人十大死因平均生命年數損失以事故傷害死亡為最多。假設每個人平均可活到70歲，因事故傷害而死亡的人平均<span class="import">少活25年！</span>這也表示因事故傷害死亡的人大部分是較年輕的人，是青壯年的主要死因，這個年齡層是國家未來20年主要的經濟支柱來源，事故死亡的嚴重不可小覷。</p>
-						<a id="plotly_d1_click" href="javascript:void(0)">國人住院陪病照顧方式</a>
+						<p>根據衛福部公布105年死因統計結果分析中，國人十大死因平均生命年數損失以事故傷害死亡為最多。假設每個人平均可活到70歲，因事故傷害而死亡的人平均
+							<span class="import">少活25年！</span>這也表示因事故傷害死亡的人大部分是較年輕的人，是青壯年的主要死因，這個年齡層是國家未來20年主要的經濟支柱來源，事故死亡的嚴重不可小覷。</p>
+						<img class="imgicon" src="./imgs/icons/man-user.png" alt="">
+						<a id="plotly_d1_click" class="imgicon" href="javascript:void(0)">70歲以下十大死因平均損失年數圖</a>
 					</div>
 				</section>
-				<section data-background-image="./imgs/background/IMG_4706.jpg">
-					<h2>急診就診率次高</h2>
+				<section data-background-image="./imgs/background/IMG_3678.jpg">
+					<h2>耗用急診資源高</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
-					<div id="plotly_d2" class="page-bg-right">
-						<p>再看衛福部公布的105年全民健康保險醫療統計電子書，每<span class="import">十萬人口</span>中因傷害、中毒與其他外因造成的特定影響而看急診的就有<span class="import">6533人</span></p>
-						<a id="plotly_d2_click" href="javascript:void(0)">105年急診就診率圖</a>
-						<br/>
-						&nbsp
-						&nbsp
-						&nbsp
-						<br/>
-						<br/>
-						&nbsp
-						&nbsp
-						&nbsp
-						<br/>
+					<div id="plotly_d2" class="page-bg-right plotly_d6 plotly_d7">
+						<p>
+						再看衛福部公布的105年全民健康保險醫療統計電子書，<span class="import">每十萬人口</span>中因傷害、中毒與其他外因造成的特定影響而看急診的就<span class="import">有6533人</span>。外傷所產生的急診費用也是高得驚人，近<span class="import">47億健保點數</span>，換算成新台幣約<span class="import">37億元</span>
+						</p>
+						<img class="imgicon" src="./imgs/icons/ambulance (1).png" alt="">
+						<a id="plotly_d2_click" class="imgicon" href="javascript:void(0)">105年急診就診率</a><br/>
+						<img class="imgicon" src="./imgs/icons/ambulance (1).png" alt="">
+						<a id="plotly_d6_click" class="imgicon" href="javascript:void(0)">105年急診費用</a><br/>
+						<img class="imgicon" src="./imgs/icons/ambulance (1).png" alt="">
+						<a id="plotly_d7_click" class="imgicon" href="javascript:void(0)">105急診件數</a>
 					</div>
 				</section>
-				<section data-background-image="./imgs/background/IMG_4706.jpg">
+				<section data-background-image="./imgs/background/IMG_local.png">
 					<h2>車禍與跌倒為最大宗</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div id="plotly_d3" class="page-bg-right">
-						<p>由台灣外傷醫學會提供的資料中，可以看到受傷機轉中車禍和跌倒人次最高。其中車禍發生人次最高是在青少年及青壯年；跌倒則好發於年長者。<bt/>
-						<a id="plotly_d3_click" href="javascript:void(0)">105年急診就診率圖</a>
+						<p>由台灣外傷醫學會提供的資料中，可以看到受傷機轉中車禍和跌倒人次最高。其中車禍發生人次最高是在青少年及青壯年；跌倒則好發於年長者。</p>
+						<i class="fab fa-accessible-icon"></i>
+						<a id="plotly_d3_click" href="javascript:void(0)">年齡與受傷機轉</a>
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
 					</div>
 				</section>
-				<section data-background-image="./imgs/bg2.jpg">
-					<p style="text-align:center">接下來就來看這兩大宗外傷機轉—<br/>車禍和跌倒的資料：</p>	 
-				</section>
-				<section class="bg-gb">
+				<section data-background-image="./imgs/background/car-accident.png">
+					<h2>車禍多發生在年輕男性</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div id="plotly_d4" class="page-bg-right">
-						<h3>車禍</h3>
-						<h4>車禍多發生在年輕男性</h4>
-						<p style="font-size:30px">從<a id="plotly_d4_click" href="javascript:void(0)">資料</a>中可看到車禍發生在20歲左右的年輕男性是最多的，女性則是20歲左右的年輕女性和60歲左右的女性。</p>
+						<p>從資料中可看到車禍發生在
+							<span class="import">20歲左右的年輕男性是最多的</span>，女性則是20歲左右的年輕女性和60歲左右的女性。</p>
+						<img class="imgicon" style="margin-top: 0;" src="./imgs/icons/accident.png" alt="">
+						<a id="plotly_d4_click" class="imgicon" href="javascript:void(0)">車禍人口金字塔</a>
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
 					</div>
 				</section>
-				<section class="bg-gb">
+				<section data-background-image="./imgs/background/faint.png">
+					<h2>跌倒多發生在年老者</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div id="plotly_d5" class="page-bg-right">
-						<h3>跌倒</h3>
-						<h4>跌倒多發生在年老者尤其是女性</h4>
-						<p style="font-size:30px">從<a id="plotly_d5_click" href="javascript:void(0)">跌倒的人口金字塔</a>可看到事件發生在年老女性為最多。<br/>且在衛福部資料中，事故傷害是老年人口死因第七位，跌倒是其中第二大原因。國內每五位老人就有一位曾經跌倒，女性因待在室內時間較長且下肢肌力較弱，比男性更容易跌倒。</p>
+						<p>
+							<span class="import">從跌倒的人口金字塔可看到事件發生在年老女性為最多。</span>且在衛福部資料中，事故傷害是老年人口死因第七位，跌倒是其中第二大原因。國內每五位老人就有一位曾經跌倒，女性因待在室內時間較長且下肢肌力較弱，比男性更容易跌倒。</p>
+						<img class="imgicon" style="margin-left: 0;margin-bottom: -3%;" src="./imgs/icons/fall_icon.png" alt="">
+						<a id="plotly_d5_click" href="javascript:void(0)">跌倒的人口金字塔</a>
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
 					</div>
 				</section>
-				<section class="bg-gb">
+				<section class="bg-gray">
+					<h2>醫療資源分配不均</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
-						<h3>醫療資源分配不均</h3>
-						<h4>全台醫療資源分配不均 - 資源大部分在北部</h4>
-						<div class="flex-container">
-							<p style="font-size:30px">下面的地圖中是全國中度及重度醫院分佈圖，可看出醫院集中在北部，有101間，中南部則明顯較少。</p>
-						</div>
+						<p>
+							<span class="import">全台醫療資源分配不均，透過急診責任醫院分布與熱點地圖，發現北部急診醫院傾多</span>
+							<br/>急救責任醫院，全國共有199間急診。責任分級又分為重度、中度及一般醫院，透過醫療資源地圖游標滑曳，可以進一步在特定區域地理範圍中，急診責任醫院的家數明顯地可以看到雙北地區即有39間急診責任醫院，佔約20%。北部地區：63間/中部地區：52間/南部地區：60間/東部地區：20間/離島地區：4間</p>
+						<a class="slide_next" href="javascript:void(0)">
+							<i style="font-size:100px" class="far fa-arrow-alt-circle-down animated infinite bounce"></i>
+						</a>
+					</div>
+				</section>
+				<section class="bg-gray">
+					<p style="font-size:10px">請先按下左上角+/-按鈕開始使用,
+					<a id="map_help" href="javascript:void(0)" style="font-size:10px">或點我地圖說明</a></p>
+					<iframe width="1000px" height="600px" src="https://kuiming.github.io/hospitalmap/map-123.html" frameborder="0"></iframe>
+				</section>
+				<section data-background-image="./imgs/background/card.jpg">
+					<h2>檢傷計算機</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>前面了解這麼多與外傷有關的趨勢~ 那…想不想知道在您這個性別與年紀的各種因外傷導致死亡的死亡率呢!來讓我們一探究竟! 提早做預防!</p>
 						<a class="slide_next" href="javascript:void(0)"><i style="font-size:100px" class="far fa-arrow-alt-circle-down animated infinite bounce"></i></a>
 					</div>
 				</section>
-				<!-- <section>
-					<iframe width="1000px" height="600px" src="./rpub/test.html" frameborder="0"></iframe>
-					<p style="font-size:10px">請先按下左上角</p>
+				<section data-background-image="./imgs/background/card.jpg">
+					<h2>生存機率預測計算機</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>當風風火火地把病患送到急診，在統計上，我們可以結合歷年資料，透過性別、年齡、到院方式、是否OHCA、外傷種類來預測檢傷分類為第一級的病人的生存機率</p>
+						<div class="flex-container">
+							<div>
+								<i class="fas fa-calculator"></i>
+								<a id="calculate2" href="javascript:void(0)">生存機率預測計算機</a>
+							</div>
+							<div>
+								<i class="fas fa-heartbeat"></i>
+								<a class="popup_ohca" href="javascript:void(0)">OHCA</a>
+							</div>
+							<div>
+								<img class="imgicon" src="./imgs/icons/doctor (3).png" alt="">
+								<a class="popup_trauma_class imgicon" href="javascript:void(0)">檢傷分類</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-background-image="./imgs/background/card.jpg">
+					<h2 style="font-size: 1.3em">外傷也能申請重大傷病卡?</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>當首次發生事故傷害就醫，依照中央健康保險署規定，經診斷為其嚴重程度到達創傷嚴重程度分數
+						<span class="import">(ISS)16分</span>以上者，可申請重大傷病證明，俗稱
+						<span class="import">「重大傷病卡」</span>。在重大傷病證明有效期間，與該傷病相關的急診、住院、門診，皆可免自行負擔費用。</p>
+						<div class="flex-container">
+							<div>
+								<i class="fas fa-calculator"></i>
+								<a id="calculate3" href="javascript:void(0)">ISS快速預測計算機</a>
+							</div>
+							<div>
+								<i class="fas fa-plus-circle"></i>
+								<a class="popup_ais" href="javascript:void(0)">AIS</a>
+							</div>
+							<div>
+								<i class="fas fa-briefcase-medical"></i>
+								<a class="popup_iss" href="javascript:void(0)">ISS</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="bg-gray">
+					<h2>急診大百科</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>如何申請ISS重大傷病卡呢? 點開下方的大百科查一下吧!</p>
+						<a class="iss_book" href="javascript:void(0)">
+						<i style="font-size:250px" class="fas fa-book"></i></a>
+					</div>
+				</section>
+				<!-- <section class="bg-gray">
+					<h2>更多資訊</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>輔具資源:<br/><a href="https://repat.sfaa.gov.tw/">https://repat.sfaa.gov.tw/</a></p>
+
+						<p>長照資源:<br/><a href="https://1966.gov.tw/LTC/mp-201.html">https://1966.gov.tw/LTC/mp-201.html</a></p>
+							
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
+					</div>
+				</section>
+				<section class="bg-gray">
+					<h2>更多資訊</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>國家投注在外傷的資源，和其重要性完全不對等，
+						<span class="import">健保對外傷給付很少</span></p>
+						<p>國人全民健康保險就醫疾病資訊:
+						<br/>
+						<a href="https://www.nhi.gov.tw/Content_List.aspx?n=076515B48BACD5A9&topn=CDA985A80C0DE710">https://www.nhi.gov.tw/Content_List.aspx?n=076515B48BACD5A9&topn=CDA985A80C0DE710</a></p>
+						<p>2016年全民健康保險醫療費用前十大疾病裡面，並無一項是屬於外傷相關，顯示健保於外傷給付佔比與其他疾病完全不對等</p>
+						<ul>
+							<li>
+								<a href="javascript:void(0)" id="health_ten">2016年全民健康保險門診醫療費用前十大疾病</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)" id="hospital_ten">2016年全民健康保險住診醫療費用前十大疾病</a>
+							</li>
+						</ul>
+						
+						<br/>
+						
+					</div>
+				</section>
+				<section class="bg-gray">
+					<h2>外傷醫療品質</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<ul>
+							<li>
+								<p>醫院分級 vs. 成效 ? &nbsp &nbsp &nbsp</p>
+							</li>
+							<li>
+								<p>天龍國 vs. 其他國 ? &nbsp &nbsp &nbsp</p>
+							</li>
+							<li>
+								<p>城市 vs. 偏鄉 ? </p>
+							</li>
+						</ul>
+					</div>
 				</section> -->
-				<section data-background-image="./imgs/bg2.jpg">
-					<h1>檢傷算算看</h1>
-				</section>
-				<section class="bg-b">
+				<section class="bg-gray">
+					<h2>後記</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
-						<p>前面了解這麼多與外傷有關的趨勢~ 那…<br/>
-							想不想知道在您這個性別與年紀的各種因外傷導致死亡的死亡率呢!<br/>
-							來讓我們一探究竟! 提早做預防!</p>
+						<p>1. 外傷登錄系統的感傷<a href="javascript:void(0)" id="help_trauma"><詳全文></a></p>
+						<p>2. 資料整理的痛苦<a href="javascript:void(0)" id="help_data"><詳全文></a></p>
+						<p>3. 傷害預防<a href="javascript:void(0)" id="help_prevent"><詳全文></a></p>
+						<br/> &nbsp &nbsp &nbsp
+						<br/>
 					</div>
-				</section>
-				<section class="bg-b">
-					<div class="page-bg-right">
-						<h3 id="calculate2"><a href="javascript:void(0)">風險預測計算機</a></h3>
-						<p>當風風火火地把病患送到急診<br/>
-							在統計上，我們可以結合歷年資料<br/>
-							透過性別、年齡、到院方式、是否<a class="popup_ohca" href="javascript:void(0)">OHCA</a>、外傷種類來預測<a class="popup_trauma_class" href="javascript:void(0)">檢傷分類</a>為第一級的病人的死亡風險</p>
-						<p>點擊標題來試試吧!!</p>
-					</div>
-				</section>
-				<section class="bg-b">
-					<div class="page-bg-right">
-						<h3 id="calculate3">外傷也能申請重大傷病卡?</h3>
-						<p>當首次發生事故傷害就醫，依照中央健康保險署規定，經診斷為其嚴重程度到達創傷嚴重程度分數(<a class="popup_iss" href="javascript:void(0)">ISS</a>)16分以上者，可申請重大傷病證明，俗稱「重大傷病卡」。在重大傷病證明有效期間，與該傷病相關的急診、住院、門診，皆可免自行負擔費用。</p>
-					</div>
-				</section>
-				<section class="bg-b">
-					<h4>急診大百科：如何申請ISS重大傷病卡?</h4>
-					<a class="iss_book" href="javascript:void(0)"><i style="font-size:250px" class="fas fa-book"></i></a>
-				</section>
-				<section data-background-image="./imgs/bg3.jpg">
-					<h3>ISS計算機</h3>
-					<input type="button" class="abd image-button" style="background-image:url(./imgs/icons/heartEKG.jpg);">
-				</section>
-				<section>
-					<h1>TODO</h1>
 				</section>
 			</section>
 		</div>
 	</div>
-	
+
 	<script src="./bower_components/reveal.js/lib/js/head.min.js"></script>
 	<script src="./bower_components/reveal.js/js/reveal.js"></script>
-
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
-<!-- Latest compiled and minified JavaScript -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
 	<script src="./bower_components/plotly.js/dist/plotly.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@7.1.0/dist/promise.min.js"></script>
 	<script type="text/javascript" src="./lib/bundle.js"></script>
 </body>
+
 </html>

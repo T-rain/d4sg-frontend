@@ -1,5 +1,5 @@
 import swal from "sweetalert2"
-const api_server_location = "http://d4sgtrauma.sytes.net:15308"
+const api_server_location = "http://localhost:5000"
 
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
@@ -20,6 +20,8 @@ function processStatus(response) {
 
 document.querySelector('#calculate2').onclick = function(){
     swal.setDefaults({
+        animation: false,
+        customClass: 'animated slideInRight',
         confirmButtonText: 'Next &rarr;',
         showCancelButton: true,
         progressSteps: ['原因','性別', '年齡', '<i class="fa fa-heartbeat" aria-hidden="true"></i>','星期']
@@ -43,10 +45,11 @@ document.querySelector('#calculate2').onclick = function(){
 
     var steps = [
         {
-            title: '風險預測計算機',
+            title: '生存機率計算機',
             title: '先從受傷原因開始吧',
             input: 'select',
             inputOptions: reasonObject,
+            animation: false
         },
         {
             title: '性別',
@@ -54,11 +57,13 @@ document.querySelector('#calculate2').onclick = function(){
             inputOptions: {
                 '1': '男',
                 '2': '女',
-            }
+            },
+            animation: false
         },{
             title: '年齡',
             input: 'select',
-            inputOptions: ageObject
+            inputOptions: ageObject,
+            animation: false
         },{
             title: 'OHCA',
             text: '到院前是否死亡',
@@ -66,12 +71,14 @@ document.querySelector('#calculate2').onclick = function(){
             inputOptions: {
                 '0': '否',
                 '1': '是',
-            }
+            },
+            animation: false
         },{
             title: '到院時間_星期',
             text: '到院是星期幾呢',
             input: 'select',
-            inputOptions: weekObject
+            inputOptions: weekObject,
+            animation: false
         }
     ]
     
@@ -79,7 +86,9 @@ document.querySelector('#calculate2').onclick = function(){
         swal.resetDefaults()
         if (result.value) {
             swal({
-                title: '來看看預測的存活風險',
+                title: '來看看預測的生存機率',
+                animation: false,
+                customClass: 'animated zoomIn',
                 showCancelButton: true,
                 confirmButtonText: '好啊',
                 cancelButtonText: '不要',
@@ -132,8 +141,10 @@ document.querySelector('#calculate2').onclick = function(){
                     if (result.value) {
                         swal({
                             type: 'warning',
-                            title: '您的存活機率: '+result.value,
-                            html: '<p style="font-size:8px; color:#AAAAAA;">存活機率僅供參考</p>'
+                            title: '生存機率為: '+result.value,
+                            html: '<p style="font-size:8px; color:#AAAAAA;">生活機率僅供參考</p>',
+                            animation: false,
+                            customClass: 'animated zoomIn'
                         })
                     }
                 })

@@ -24,8 +24,7 @@
 
 .flex-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .reveal {
@@ -34,6 +33,7 @@
         font-size: 1.4em;
         text-align:left;
         margin-left: 28%;
+        font-family: Microsoft JhengHei,BiauKai;
     }
 
     section p {
@@ -44,6 +44,7 @@
         .import{
             color: rgb(255,128,123)
         }
+        font-family: Microsoft JhengHei,BiauKai;
     }
 
     a{
@@ -54,11 +55,21 @@
         transition-timing-function: ease;
         transition-delay: initial;
         font-size: 30px;
-        margin-left: 5%;
+        font-family: Microsoft JhengHei,BiauKai;
 
         &:hover{
             color:#FFDA44;
         }
+
+        &.imgicon{
+            vertical-align: top;
+        }
+    }
+
+    i{
+        color:#FFDA44;
+        margin-left: 5%;
+        font-size: 35px;
     }
 
     section img{
@@ -66,8 +77,20 @@
         background: inherit;
         border: inherit;
         box-shadow: inherit;
+        &.imgicon{
+            height: 37px;
+            margin-right: 0;
+            margin-left: 5%;
+            vertical-align: super;
+        }
     }
 }
+
+.reveal div.plot-container {
+    width:'100%'
+}
+
+// dcc.Graph(id=‘chart-graph’, style={‘margin-top’: ‘0’, ‘height’: 920} );
 
 @import "cover";
 @import "popup";

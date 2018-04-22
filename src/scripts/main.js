@@ -46,7 +46,7 @@ let currentState = {};
 Reveal.addEventListener( 'slidechanged', function( event ) {
 
     // add it for removing  one of reveal two background class
-    let backgroundColorClassArray = ["bg","bg-gb","bg-b"];
+    let backgroundColorClassArray = ["bg","bg-gb","bg-b","bg-gray"];
     backgroundColorClassArray.forEach(colorClass=>{
         document.querySelectorAll("."+colorClass).forEach(ele=>{
             if(ele.tagName === "SECTION"){
@@ -67,7 +67,7 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
         return;
     }
     // add it for keep the state before popup
-    let popupPages = [15,16,17,18,19];
+    let popupPages = [3,10,12,13,14,16,18];
     popupPages.forEach(page=>{
         if(event.indexh === 0 && event.indexv === page){
             currentState = Reveal.getState();
@@ -81,10 +81,6 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
         selftype.page1Type1();
         selftype.page1Type2();
     }
-    // if(event.indexh === 0 && event.indexv === 3){
-    //     // 
-    //     selftype.page3Type1();
-    // }
 
     
     // console.log(swal.isVisible());

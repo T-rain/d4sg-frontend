@@ -1,3 +1,7 @@
+.swal2-popup #swal2-content {
+    font-family: Microsoft JhengHei,BiauKai;
+}
+
 .popupText {
     text-align:left;
 }
@@ -8,16 +12,17 @@
             color:rgb(87, 105, 101);
         }
     }
+    .popup-plotly-margin{
+        margin-top: 3%;
+    }
 } 
 
 .popup-plotly-disable{
     display:none;
 }
-
 //relocate for each content
-div#after_popup_plotly_d1 {
-    margin-top: 5%;
-}
+
+
 // .testPlotly{
 
 // }

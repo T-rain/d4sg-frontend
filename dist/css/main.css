@@ -7,6 +7,9 @@
 .bg-b {
   background: linear-gradient(-12deg, #66a4ce 0, transparent 75%, #66a4ce 0); }
 
+.bg-gray {
+  background: linear-gradient(-40deg, #050505 13%, #504c4c 35%, #353533 60%); }
+
 .reveal .page-bg-right {
   margin-top: 0;
   margin-right: 8%;
@@ -38,20 +41,21 @@
 
 .flex-container {
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  flex-direction: column; }
 
 .reveal h2 {
   color: white;
   font-size: 1.4em;
   text-align: left;
-  margin-left: 28%; }
+  margin-left: 28%;
+  font-family: Microsoft JhengHei,BiauKai; }
 
 .reveal section p {
   text-align: left;
   color: white;
   font-size: 30px;
-  margin-left: 5%; }
+  margin-left: 5%;
+  font-family: Microsoft JhengHei,BiauKai; }
   .reveal section p .import {
     color: #ff807b; }
 
@@ -63,15 +67,33 @@
   transition-timing-function: ease;
   transition-delay: initial;
   font-size: 30px;
-  margin-left: 5%; }
+  font-family: Microsoft JhengHei,BiauKai; }
   .reveal a:hover {
     color: #FFDA44; }
+  .reveal a.imgicon {
+    vertical-align: top; }
+
+.reveal i {
+  color: #FFDA44;
+  margin-left: 5%;
+  font-size: 35px; }
 
 .reveal section img {
   margin: inherit;
   background: inherit;
   border: inherit;
   box-shadow: inherit; }
+  .reveal section img.imgicon {
+    height: 37px;
+    margin-right: 0;
+    margin-left: 5%;
+    vertical-align: super; }
+
+.reveal div.plot-container {
+  width: '100%'; }
+
+.swal2-popup #swal2-content {
+  font-family: Microsoft JhengHei,BiauKai; }
 
 .popupText {
   text-align: left; }
@@ -79,11 +101,11 @@
 .reveal a.iss_book {
   color: #576965; }
 
+.reveal .popup-plotly-margin {
+  margin-top: 3%; }
+
 .popup-plotly-disable {
   display: none; }
-
-div#after_popup_plotly_d1 {
-  margin-top: 5%; }
 
 .reveal section .longtxt p {
   text-align: left;
