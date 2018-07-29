@@ -90,6 +90,16 @@
     width:'100%'
 }
 
+.reveal .progress{
+    color: rgba(37, 115, 223,0.75);
+    top: 0;
+    // buttom: "100%";
+    height: 25px;
+}
+
+*:focus {
+    outline: none;
+}
 // dcc.Graph(id=‘chart-graph’, style={‘margin-top’: ‘0’, ‘height’: 920} );
 
 @import "cover";

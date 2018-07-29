@@ -6,6 +6,9 @@
 	<title>Hospital</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+	<link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+
 	<!-- reveal js css -->
 	<link rel="stylesheet" href="./bower_components/reveal.js/css/reveal.css">
 	<link rel="stylesheet" href="./bower_components/reveal.js/css/theme/white.css">
@@ -14,8 +17,7 @@
 	<link rel="stylesheet" href="./bower_components/animate.css/animate.min.css">
 
 	<!-- fontawesome5.css -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-	    crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 
@@ -118,7 +120,7 @@
 					<div id="plotly_d5" class="page-bg-right">
 						<p>
 							<span class="import">從跌倒的人口金字塔可看到事件發生在年老女性為最多。</span>且在衛福部資料中，事故傷害是老年人口死因第七位，跌倒是其中第二大原因。國內每五位老人就有一位曾經跌倒，女性因待在室內時間較長且下肢肌力較弱，比男性更容易跌倒。</p>
-						<img class="imgicon" style="margin-left: 0;margin-bottom: -3%;" src="./imgs/icons/fall_icon.png" alt="">
+						<img class="imgicon" style="margin-bottom: -3%;" src="./imgs/icons/fall_icon.png" alt="">
 						<a id="plotly_d5_click" href="javascript:void(0)">跌倒的人口金字塔</a>
 						<br/> &nbsp &nbsp &nbsp
 						<br/>
@@ -126,7 +128,7 @@
 						<br/>
 					</div>
 				</section>
-				<section class="bg-gray">
+				<section data-background-color="#444444">
 					<h2>醫療資源分配不均</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
@@ -138,16 +140,30 @@
 						</a>
 					</div>
 				</section>
-				<section class="bg-gray">
-					<p style="font-size:10px">請先按下左上角+/-按鈕開始使用,
-					<a id="map_help" href="javascript:void(0)" style="font-size:10px">或點我地圖說明</a></p>
+				<section data-background-color="#444444">
+					<a id="map_help" href="javascript:void(0)" style="font-size:30px">地圖說明</a></p>
 					<iframe width="1000px" height="600px" src="https://kuiming.github.io/hospitalmap/map-123.html" frameborder="0"></iframe>
 				</section>
+				<!-- <section data-background-color="#444444">
+					<h2>風險雷達圖</h2>
+					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+					<div class="page-bg-right">
+						<p>
+							<span class="import">來看看風險雷達吧</span>
+							<br/>風險雷達圖</p>
+						<a class="slide_next" href="javascript:void(0)">
+							<i style="font-size:100px" class="far fa-arrow-alt-circle-down animated infinite bounce"></i>
+						</a>
+					</div>
+				</section>
+				<section data-background-color="#444444">
+					<iframe width="1000px" height="600px" src="./viz_filter/index.html" frameborder="0" style="overflow-y: hidden;" scrolling="no"></iframe>
+				</section> -->
 				<section data-background-image="./imgs/background/card.jpg">
 					<h2>檢傷計算機</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
-						<p>前面了解這麼多與外傷有關的趨勢~ 那…想不想知道在您這個性別與年紀的各種因外傷導致死亡的死亡率呢!來讓我們一探究竟! 提早做預防!</p>
+						<p>前面了解這麼多與外傷有關的趨勢~ 那…想不想知道在您這個性別與年紀的各種因外傷導致死亡的死亡率呢!來讓我們一探究竟!</p>
 						<a class="slide_next" href="javascript:void(0)"><i style="font-size:100px" class="far fa-arrow-alt-circle-down animated infinite bounce"></i></a>
 					</div>
 				</section>
@@ -195,14 +211,19 @@
 						</div>
 					</div>
 				</section>
-				<section class="bg-gray">
+				<section data-background-color="#444444">
 					<h2>急診大百科</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
 						<p>如何申請ISS重大傷病卡呢? 點開下方的大百科查一下吧!</p>
 						<a class="iss_book" href="javascript:void(0)">
-						<i style="font-size:250px" class="fas fa-book"></i></a>
+							<img class="bookIcon" style="width:500px"/>
+						</a>
 					</div>
+					<!-- <i style="font-size:250px" class="fas fa-book"></i> 
+					-->
+					
+					
 				</section>
 				<!-- <section class="bg-gray">
 					<h2>更多資訊</h2>
@@ -256,7 +277,7 @@
 						</ul>
 					</div>
 				</section> -->
-				<section class="bg-gray">
+				<section data-background-color="#444444">
 					<h2>後記</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
@@ -267,9 +288,17 @@
 						<br/>
 					</div>
 				</section>
+				<section data-background-color="#444444">
+						<h2>工作團隊</h2>
+						<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
+						<div class="page-bg-right">
+							<img src="./imgs/work.png" style="width:500px;height:500px;margin-left: 10%" alt="">
+						</div>
+					</section>
 			</section>
 		</div>
 	</div>
+	
 
 	<script src="./bower_components/reveal.js/lib/js/head.min.js"></script>
 	<script src="./bower_components/reveal.js/js/reveal.js"></script>

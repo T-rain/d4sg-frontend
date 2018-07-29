@@ -1,5 +1,5 @@
 import swal from "sweetalert2"
-const api_server_location = "http://localhost:5000"
+const api_server_location = "http://d4sgtrauma.sytes.net/api"
 
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
@@ -22,9 +22,12 @@ document.querySelector('#calculate3').onclick = function(){
     swal.setDefaults({
         animation: false,
         customClass: 'animated slideInRight',
-        confirmButtonText: 'Next &rarr;',
+        confirmButtonText: '下一步',
+        cancelButtonText: '取消',
         showCancelButton: true,
-        progressSteps: ['原因','性別', '年齡', '<i class="fa fa-heartbeat" aria-hidden="true"></i>','星期']
+        progressSteps: ['原因','性別', '年齡', '<i class="fa fa-heartbeat" aria-hidden="true"></i>','星期'],
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#aaa',
     })
           
     // const reason = ["nouse","車禍", "跌倒摔落"]
@@ -112,7 +115,7 @@ document.querySelector('#calculate3').onclick = function(){
                         "weekday": parseInt(answerArray[5]),
                     }
                     const data = JSON.stringify(payload);
-                    console.log(data);
+                    // console.log(data);
                     fetch(api_server_location+"/models/iss",{
                         headers: {
                             'Accept': 'application/json',
@@ -129,13 +132,13 @@ document.querySelector('#calculate3').onclick = function(){
                                 let predictionResult = data.prediction;
                                 resolve(predictionResult);
                             }).catch((err)=>{
-                                console.log('ParseError', err);
+                                // console.log('ParseError', err);
                                 reject(err)
                             });
                         }
                     )
                     .catch(function (err) {
-                        console.log('Fetch Error :-S', err);
+                        // console.log('Fetch Error :-S', err);
                         reject(err)
                     });
                     
@@ -152,7 +155,7 @@ document.querySelector('#calculate3').onclick = function(){
                 allowOutsideClick: () => !swal.isLoading()
                 })
                 .then((result) => {
-                    console.log(result);
+                    // console.log(result);
                     if (result.value) {
                         // let showType = ""
                         // let showText = ""

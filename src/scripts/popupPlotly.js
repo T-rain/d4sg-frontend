@@ -180,7 +180,7 @@ model.getD3Data()
             return data;
         });
 
-        console.log(xArray);
+        // console.log(xArray);
         console.log(plotlyData);
 
         let multiButton = lineInfo.map((ele,index)=>{
@@ -200,7 +200,7 @@ model.getD3Data()
 
         multiButton.unshift(totalButton);
 
-        console.log(multiButton);
+        // console.log(multiButton);
         
         
         const draw_plotly_d3 = (_ele)=>{
@@ -237,7 +237,6 @@ model.getD3Data()
     })
     .catch(function (err) {
         console.log('GetDataWrong', err);
-        // reject(err)
     });
 
 model.getD4Data()
@@ -308,7 +307,6 @@ model.getD4Data()
     })
     .catch(function (err) {
         console.log('GetDataWrong', err);
-        // reject(err)
     });
 
 model.getD5Data()
@@ -379,13 +377,11 @@ model.getD5Data()
     })
     .catch(function (err) {
         console.log('GetDataWrong', err);
-        // reject(err)
     });
 
 model.getD6Data()
     .then(function (data) {
         const draw_plotly_d6 = (_ele)=>{
-            console.log(data);
             data.x = data.x.reverse();
             data.y = data.y.reverse();
             data.type='bar';
@@ -437,7 +433,6 @@ model.getD6Data()
 model.getD7Data()
     .then(function (data) {
         const draw_plotly_d7 = (_ele)=>{
-            console.log(data);
             data.x = data.x.reverse();
             data.y = data.y.reverse();
             data.type='bar';

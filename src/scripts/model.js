@@ -24,12 +24,12 @@ const getVizDataFromAPI = (subapi)=>{
                     .then((data)=>{
                         resolve(data);
                     }).catch((err)=>{
-                        console.log('ParseError', err);
+                        // console.log('ParseError', err);
                         reject(err)
                     });
             })
             .catch(function (err) {
-                console.log('Fetch Error :-S', err);
+                // console.log('Fetch Error :-S', err);
                 reject(err)
             });
     });

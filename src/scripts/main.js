@@ -8,6 +8,7 @@ import './calculate_Risk'
 import './popupPlotly'
 import './popupHelpWindows'
 import './popupStory'
+import './bookIcon'
 
 // for the reveal js setting
 // More info about config & dependencies:
@@ -67,13 +68,13 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
         return;
     }
     // add it for keep the state before popup
-    let popupPages = [3,10,12,13,14,16,18];
+    let popupPages = [4,10,12,13,14,16,18];
     popupPages.forEach(page=>{
         if(event.indexh === 0 && event.indexv === page){
             currentState = Reveal.getState();
-            console.log(currentState)
+            // console.log(currentState)
             scale = Reveal.getScale();
-            console.log(scale);
+            // console.log(scale);
         }
     })
 
