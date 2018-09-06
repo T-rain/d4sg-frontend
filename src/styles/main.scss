@@ -33,7 +33,7 @@
         font-size: 1.4em;
         text-align:left;
         margin-left: 28%;
-        font-family: Microsoft JhengHei,BiauKai;
+        font-family: 'Open Sans', sans-serif;
     }
 
     section p {
@@ -44,7 +44,15 @@
         .import{
             color: rgb(255,128,123)
         }
-        font-family: Microsoft JhengHei,BiauKai;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    [id^="bg2"] {
+        text-align: inherit;
+        color:white;
+        font-size: inherit;
+        margin-left: inherit;
+        font-family: 'Open Sans', sans-serif;
     }
 
     a{
@@ -55,7 +63,7 @@
         transition-timing-function: ease;
         transition-delay: initial;
         font-size: 30px;
-        font-family: Microsoft JhengHei,BiauKai;
+        font-family: 'Open Sans', sans-serif;
 
         &:hover{
             color:#FFDA44;
@@ -84,6 +92,7 @@
             vertical-align: super;
         }
     }
+
 }
 
 .reveal div.plot-container {

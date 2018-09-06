@@ -1,5 +1,5 @@
 // this detect method need to be used in three page,just like main.js
-export const detectAndSetTadaAnimateOn = (_id,_isSet,_animate)=>{
+export const detectAndSetAnimateOn = (_id,_isSet,_animate)=>{
     if(!_animate){
         _animate = toggleAnimateTada;
     }
@@ -25,4 +25,10 @@ export const toggleAnimateTada = (targetClassList)=>{
 export const toggleAnimateSwing = (targetClassList)=>{
     targetClassList.toggle("animated");
     targetClassList.toggle("swing");
+}
+
+export const toggleAnimateHingeINF = (targetClassList)=>{
+    targetClassList.toggle("animated");
+    targetClassList.toggle("hinge");
+    targetClassList.toggle("infinite");
 }

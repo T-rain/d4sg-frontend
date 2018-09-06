@@ -339,16 +339,38 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
         swalISSbookAt(0);
     }
 });
-
-
+	
 document.querySelector('#map_help').onclick = ()=>{
+    const helpHtml = `
+        <p style='text-align:left;'>
+            
+            <span style="color:#e4ba15">說明1:</span><br/>
+            右下角顯示人口數量級距所對應的顏色深淺<br/>
+            <span style="color:#e4ba15">說明2:</span><br/>
+            地圖其圓圈顏色越深(紅色)代表相對於其他地區急救責任醫院越有群聚的狀況，圓圈內數值代表醫院家數。<br/>
+            <span style="color:#e4ba15">說明3:</span><br/>
+            游標為醫院地址之定位，游標顏色為急救責任醫院之分級。綠色代表「一般級」；橘色代表「中度級」；紅色代表「重度級」<br/>
+            <span style="color:#e4ba15">說明4:</span><br/>
+            游標滑曳，可以進一步在特定區域地理範圍中查看數量，明顯可以看到雙北地區即有39間急診責任醫院，佔約20%。<br/>
+            各地區醫院間數如下:<br/>
+            北部地區：63間/中部地區：52間<br/>
+            南部地區：60間/東部地區：20間<br/>
+            離島地區：4間<br/>
+            <span style="color:#e4ba15">說明5:</span><br/>
+            北部地區：臺北市、新北市、桃園市、新竹縣、新竹市與基隆市<br/>
+            中部地區：臺中市、苗栗縣、南投縣、雲林縣與彰化縣<br/>
+            南部地區：嘉義縣、嘉義市、台南市、屏東縣、高雄縣與高雄市<br/>
+            東部地區：臺東縣、花蓮縣與宜蘭縣<br/>
+            離島地區：金門縣、連江縣與澎湖縣
+        </p>
+    `;
     swal({
         animation: false,
         customClass: 'animated fadeIn',
         showCloseButton: true,
         width:'80%',
         title:'地圖說明',
-        html:"<p style='text-align:left;'>說明1:<br/>地圖其圓圈顏色越深(紅色)代表相對於其他地區急救責任醫院越有群聚的狀況，圓圈內數值代表醫院家數。<br/>說明2:<br/>游標為醫院地址之定位，游標顏色綠色代表「一般」；橘色代表「中度」；紅色代表「重度」<br/>說明3：<br/>北部地區：臺北市、新北市、桃園市、新竹縣市與基隆市<br/>中部地區：臺中市、苗栗縣、南投縣、雲林縣與彰化縣<br/>南部地區：嘉義縣市、台南市、屏東縣與高雄縣<br/>東部地區：臺東縣、花蓮縣與宜蘭縣<br/>離島地區：金門縣、連江線與澎湖縣</p>",
+        html:helpHtml,
         confirmButtonText: '關閉',
     })
 };

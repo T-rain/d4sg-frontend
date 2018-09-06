@@ -19,6 +19,9 @@
 	<!-- fontawesome5.css -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 
 </head>
@@ -32,33 +35,41 @@
 					<img src="./imgs/background/logo.png" alt="logo" />
 				</section>
 				<section data-background-image="./imgs/bg2.jpg">
-					<span id="bg2-one" style="color:white"></span>
+					<p id="bg2-one" style="color:white"></p>
+					<p id="bg2-two" style="color:white"></p>
 					<br>
-					<span id="bg2-two" style="color:white"></span>
+					<br>
+					<br>
+					<br>
+					<br>
 				</section>
 				<section data-background-image="./imgs/background/IMG_4724.jpg">
 					<h2>一人住院、全家倒</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div id="plotly_t1" class="page-bg-right">
-						<p>在台灣，一人住院、全家倒的情形很普遍，根據2017年家庭照顧者關懷總會的調查，國人住院陪病照顧方式中，有65.4％由一或多位家屬輪流照顧，家人必須因此請假或犧牲工作；25.9％的家庭會聘請本國或外籍看護全天候照顧，<span class="import">每日平均聘僱看護得花上2960元，一個月近10萬元，等於說一年需得花上百萬元</span>。不管是家屬自己照顧或是聘請看護，對家屬來說都是一筆可觀的經濟負擔......</p>
+						<p>在台灣，一人住院、全家倒的情形很普遍，根據調查，<span class="import">每日聘僱看護平均得花上2960元，一個月就將近10萬元</span>，對家庭來說是一筆可觀的經濟負擔......
+						</p>
 						<i class="fas fa-hospital"></i>
 						<a id="plotly_t1_click" href="javascript:void(0)">國人住院陪病照顧方式</a>
+						<br>
+						<br>
+						<br>
 					</div>
 				</section>
 				<section data-background-color="black">
-					<h2>ㄧ人倒，是扣分</h2>
+					<h2>一時疏忽，長年負擔</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
-						<p>即使我們了解生病住院會深遠影響ㄧ家大小，但事故傷害並不像其他疾病，讓你有餘裕準備。它通常在你喪失危機警覺，或沉浸冒險歡樂時偷襲你。它奪走的往往是狀盛生產力，而加重我們社會長照負擔。</p>
+						<p>即使我們了解生病住院會深遠影響ㄧ家大小，但事故傷害並不像其他疾病，讓你有餘裕準備。它通常在你喪失危機警覺，或沉浸冒險歡樂時偷襲你。它奪走的往往是壯盛生產力，而加重我們社會長照負擔。</p>
 					</div>
 				</section>
 				<section data-background-image="./imgs/background/IMG_00111.jpg">
-					<h2>小故事</h2>
+					<h2>外傷的生死交織與分野</h2>
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
 						<p>鈴！鈴！鈴！急促的電話鈴響，就在兒童節這天的清晨6:00響起。「喂，我是屏東OO醫院，有一位15歲男童車禍，下半身被輾過，骨盆腔大量出血，腹部內臟破損，需要緊急手術，我們醫院沒有兒科加護病房，可以轉過去嗎？」苦惱的是，我院的兒科加護病房也都滿床，該拒絕嗎?</p>
 						<a id="popupStory" href="javascript:void(0)" style="font-size: 30px ;margin-left: 5%">
-							<更多詳情>
+							...更多詳情...
 						</a>
 					</div>
 				</section>
@@ -105,7 +116,7 @@
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div id="plotly_d4" class="page-bg-right">
 						<p>從資料中可看到車禍發生在
-							<span class="import">20歲左右的年輕男性是最多的</span>，女性則是20歲左右的年輕女性和60歲左右的女性。</p>
+							<span class="import">20歲左右的年輕男性是最多的</span>，女性發生車禍則有兩個高峰：20歲與60歲左右。</p>
 						<img class="imgicon" style="margin-top: 0;" src="./imgs/icons/accident.png" alt="">
 						<a id="plotly_d4_click" class="imgicon" href="javascript:void(0)">車禍人口金字塔</a>
 						<br/> &nbsp &nbsp &nbsp
@@ -133,16 +144,18 @@
 					<img class="bg-horizon" src="./imgs/background/ECG3.png" alt="">
 					<div class="page-bg-right">
 						<p>
-							<span class="import">全台醫療資源分配不均，透過急診責任醫院分布與熱點地圖，發現北部急診醫院傾多</span>
-							<br/>急救責任醫院，全國共有199間急診。責任分級又分為重度、中度及一般醫院，透過醫療資源地圖游標滑曳，可以進一步在特定區域地理範圍中，急診責任醫院的家數明顯地可以看到雙北地區即有39間急診責任醫院，佔約20%。北部地區：63間/中部地區：52間/南部地區：60間/東部地區：20間/離島地區：4間</p>
+							急救責任醫院，全國共有199間急診。<br/>
+							責任分級又分為重度、中度及一般醫院，請點擊下方按鈕，前往醫療資源地圖
+						</p>
 						<a class="slide_next" href="javascript:void(0)">
 							<i style="font-size:100px" class="far fa-arrow-alt-circle-down animated infinite bounce"></i>
 						</a>
 					</div>
 				</section>
 				<section data-background-color="#444444">
-					<a id="map_help" href="javascript:void(0)" style="font-size:30px">地圖說明</a></p>
-					<iframe width="1000px" height="600px" src="https://kuiming.github.io/hospitalmap/map-123.html" frameborder="0"></iframe>
+					<a id="map_help" href="javascript:void(0)" style="font-size:30px">點我看地圖說明</a></p>
+					<iframe width="1000px" height="500px" src="https://kuiming.github.io/hospitalmap/map-123.html" frameborder="0"></iframe>
+					<p style="font-size:24px"><span class="import">全台醫療資源分配不均，透過急診責任醫院分布與熱點地圖，發現北部急診醫院傾多</span></p>
 				</section>
 				<!-- <section data-background-color="#444444">
 					<h2>風險雷達圖</h2>

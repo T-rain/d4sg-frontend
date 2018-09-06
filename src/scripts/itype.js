@@ -1,4 +1,5 @@
 import { init } from 'ityped'
+import * as AnimateCss from './animateCss';
   
 const oneElement = document.querySelector('#bg2-one')
 const twoElement = document.querySelector('#bg2-two')
@@ -63,7 +64,9 @@ export const page1Type1 = () => {
          * @property {Function} onFinished The callback called , if `loop` is false,
          * once the last string was typed
          */
-        onFinished: function(){},
+        onFinished: function(){
+
+        },
     });
 }
 
@@ -78,6 +81,9 @@ export const page1Type2 = () =>{
         placeholder: false,
         disableBackTyping: true,
         cursorChar: "|",
+        onFinished: function(){
+            AnimateCss.detectAndSetAnimateOn('bg2-two', true, AnimateCss.toggleAnimateHingeINF);
+        },
     });
 }
 

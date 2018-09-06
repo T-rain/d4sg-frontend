@@ -145,7 +145,7 @@ document.querySelector('#calculate2').onclick = function(){
                         swal({
                             type: 'warning',
                             title: '生存機率為: '+result.value,
-                            html: '<p style="font-size:8px; color:#AAAAAA;">生活機率僅供參考</p>',
+                            html: '<p style="font-size:8px; color:#AAAAAA;">生存機率僅供參考</p>',
                             animation: false,
                             customClass: 'animated zoomIn'
                         })

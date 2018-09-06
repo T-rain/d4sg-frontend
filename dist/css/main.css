@@ -48,16 +48,23 @@
   font-size: 1.4em;
   text-align: left;
   margin-left: 28%;
-  font-family: Microsoft JhengHei,BiauKai; }
+  font-family: 'Open Sans', sans-serif; }
 
 .reveal section p {
   text-align: left;
   color: white;
   font-size: 30px;
   margin-left: 5%;
-  font-family: Microsoft JhengHei,BiauKai; }
+  font-family: 'Open Sans', sans-serif; }
   .reveal section p .import {
     color: #ff807b; }
+
+.reveal [id^="bg2"] {
+  text-align: inherit;
+  color: white;
+  font-size: inherit;
+  margin-left: inherit;
+  font-family: 'Open Sans', sans-serif; }
 
 .reveal a {
   color: #ffffffc9;
@@ -67,7 +74,7 @@
   transition-timing-function: ease;
   transition-delay: initial;
   font-size: 30px;
-  font-family: Microsoft JhengHei,BiauKai; }
+  font-family: 'Open Sans', sans-serif; }
   .reveal a:hover {
     color: #FFDA44; }
   .reveal a.imgicon {

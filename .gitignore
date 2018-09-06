@@ -62,3 +62,6 @@ typings/
 
 # mac temp file
 .DS_Store
+
+# todo
+.eslintrc.yml

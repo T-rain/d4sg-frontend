@@ -1,4 +1,5 @@
-const api_server_location = "http://localhost:5000";
+const api_server_location = "http://localhost:5000/api";
+// const api_server_location = "http://d4sg.nctu.me/api";
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
     if (response.status === 200 || response.status === 0) {
