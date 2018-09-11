@@ -1,5 +1,5 @@
 import swal from "sweetalert2"
-const api_server_location = "http://d4sgtrauma.sytes.net/api"
+const api_server_location = "http://d4sg.nctu.me/api"
 
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
@@ -169,8 +169,8 @@ document.querySelector('#calculate3').onclick = function(){
                         // }
                         swal({
                             type: 'warning',
-                            title: '預測ISS數值大於16的機率: '+result.value,
-                            html: '<p style="font-size:8px; color:#AAAAAA;">ISS指數評估一定有風險，在做任何決定前，先請醫生再評估免煩惱</p>',
+                            title: '預測ISS為16分以上的機率: '+ '<span class="import">'+result.value+'</span>',
+                            html: '<p style="font-size:8px; color:#AAAAAA;">此為預測結果，不代表真實狀況。需要時，以醫師評估結果為主</p>',
                             animation: false,
                             customClass: 'animated zoomIn'
                         })
@@ -179,7 +179,6 @@ document.querySelector('#calculate3').onclick = function(){
         }
     })
 };
-
 
 
 

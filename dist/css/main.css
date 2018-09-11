@@ -110,15 +110,17 @@
 .swal2-popup #swal2-content {
   font-family: Microsoft JhengHei,BiauKai;
   font-size: 30px; }
-
-.swal2-popup #swal2-content .textWithPadding {
-  font-family: Microsoft JhengHei,BiauKai;
-  padding-left: 60px;
-  padding-right: 60px;
-  font-size: 30px; }
+  .swal2-popup #swal2-content .textWithPadding {
+    font-family: Microsoft JhengHei,BiauKai;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px; }
 
 .swal2-popup .swal2-actions {
   flex-direction: row-reverse; }
+
+.swal2-popup .swal2-title span.import {
+  color: #ff807b; }
 
 .popupText {
   text-align: left; }

@@ -80,7 +80,7 @@ Reveal.addEventListener('slidechanged', (event) => {
   }
 
   // add it for keep the state before popup swal
-  const popupSwalPages = [4, 11, 12, 13, 14, 16, 18];
+  const popupSwalPages = [4, 11, 12, 13, 14, 16, 17];
   popupSwalPages.forEach((page) => {
     if (event.indexh === 0 && event.indexv === page) {
       currentState = Reveal.getState();

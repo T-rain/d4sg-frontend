@@ -1,5 +1,5 @@
 import swal from "sweetalert2"
-const api_server_location = "http://d4sgtrauma.sytes.net/api"
+const api_server_location = "http://d4sg.nctu.me/api"
 
 function processStatus(response) {
     // 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
@@ -144,7 +144,7 @@ document.querySelector('#calculate2').onclick = function(){
                     if (result.value) {
                         swal({
                             type: 'warning',
-                            title: '生存機率為: '+result.value,
+                            title: '生存機率為: '+'<span class="import">'+result.value+'</span>',
                             html: '<p style="font-size:8px; color:#AAAAAA;">生存機率僅供參考</p>',
                             animation: false,
                             customClass: 'animated zoomIn'

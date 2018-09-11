@@ -258,6 +258,8 @@ document.querySelectorAll('.popup_ohca').forEach(ele=>{
     }
 });
 
+
+
 document.querySelectorAll('.iss_book').forEach(ele=>{
     ele.onclick = function(){
         swal.setDefaults({
@@ -275,25 +277,35 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
             cancelButtonColor: '#28a745',
             // progressSteps: ['1', '2', '3','4','5','6']
         })
+        
+
+
+        
+
+
 
         let currentContext = 0;
         let books = [
             {
                 showCancelButton: false,
                 title: '重大傷病卡可以在醫院辦理嗎？',
-                text: '可以，配合各家醫院的辦理程序，通常是服務台或是受理申請各式診斷證明書之櫃檯有專人可以協助辦理。另外也可以自己到健保署現場辦理。(健保署地址：台北市公園路15號之一5樓)。',
+                html: '經醫師診斷確定所罹患的傷病是屬於公告之重大傷病時，可檢具文件郵寄或親自送件，向健保分區業務組申請重大傷病證明。民眾對重大傷病有疑義，可洽詢轄區健保分區業務組(<a href="https://goo.gl/WE3Shi" target="_blank">https://goo.gl/WE3Shi</a>)',
                 animation: false,
                 customClass: 'animated fadeIn',
             },
             {
-                title: '第一次申請重大傷病卡<br/>需要附上什麼資料?',
-                text: '重大傷病申請書、健保卡、身分證明文件（正反面影本，兒童得以戶口名簿代替）、30日內之診斷證明書。',
+                title: '<p style="margin:0 auto">第一次申請重大傷病卡</p><p style="margin-top: 5px;margin-bottom: 0;">需要附上什麼資料?</p>',
+                html: `<p style="text-align:left">(一) 重大傷病證明申請書<br/>
+                (二) 三十日內開立之診斷證明書<br/>
+                (三) 身分證明文件(正反面影本，兒童得以戶口名簿代替)
+                現場臨櫃申請者，請盡量攜帶健保卡<br/>
+                (四) 病歷摘要或檢查報告等相關資料</p>`,
                 animation: false,
                 customClass: 'animated fadeIn',
             },
             {
                 title: '重大傷病卡多久可以拿到？',
-                text: '如果診斷病名範圍明確者，健保署就可當日核發。要是診斷病名範圍不明確者或特殊疾病等狀況，需由健保署醫師專業審查通過後才會寄發，大概需要10個工作日。',
+                text: '如果診斷病名範圍明確者，可當日核發。要是診斷病名範圍不明確者或特殊疾病等狀況，需由健保署醫師專業審查通過後才會寄發，大概需要10個工作日。',
                 animation: false,
                 customClass: 'animated fadeIn',
             },
@@ -304,15 +316,15 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
                 customClass: 'animated fadeIn',
             },
             {
-                title: '有重大傷病卡要怎麼使用？<br/>有什麼優惠？',
-                text: '要由醫師專業認定，治療處置的內容要符合重大傷病卡上的診斷，該次醫療費用可免部份負擔 。',
+                title: '<p style="margin:0 auto">有重大傷病卡要怎麼使用？</p><p style="margin-top: 5px;margin-bottom: 0;">有什麼優惠？</p>',
+                text: '持健保卡至醫療院所看診時，醫療院所讀取健保卡重大傷病註記，必須配合醫師卡才能讀取重大傷病代碼、有效起迄日期，經醫師診斷當次就醫確屬重大傷病或其相關治療，才可以免繳部分負擔費用',
                 animation: false,
                 customClass: 'animated fadeIn',
             },
             {
                 showConfirmButton: false,
-                title: '有重大傷病卡後<br/>在就醫上還有什麼要注意的嗎？',
-                text: '不管看門診還是住院，請記得帶健保卡並告知住院、門診櫃承辦人員:『你有重大傷病卡』請他幫你讀取。',
+                title: '<p style="margin:0 auto">有重大傷病卡後</p><p style="margin-top: 5px;margin-bottom: 0;">在就醫上還有什麼要注意的嗎？</p>',
+                text: '就醫時，務必主動提醒醫師「我有重大傷病」，請醫師協助讀取健保卡資訊',
                 animation: false,
                 customClass: 'animated fadeIn',
             },
@@ -500,6 +512,7 @@ document.querySelector('#help_trauma').onclick = ()=>{
         animation: false,
         customClass: 'animated fadeIn',
         showCloseButton: true,
+        type: 'info',
         width:'80%',
         title:'外傷登錄系統的感傷',
         html:"<p class='popupText textWithPadding'>近年來「精準醫學」(Precision Medicine)為之風潮，精準醫學即為個別病人量身訂製出最佳的治療方案。<br/>導入如此的觀念，延伸到公共衛生學上，推行「精準公衛」(Precision Public Heath），提供政策擬定的精準方向，讓箭射在箭靶紅心點上，全力促進公眾健康！然而，精準公衛始於建構精準的登錄系統。<br/> 以衛生福利部公佈的資料所知，民國105年國人十大死因中，事故傷害排名第五，且居 1-14 歲及 15-24 歲死亡人口之首位死因，為 25-44 歲之死因第 2 位。 <br/> 想要像剝洋蔥一樣查看究竟，就得仰賴完整的外傷資料庫。外傷登錄是外傷資料庫系統中最重要的一環，民國94年台灣外傷醫學會啟用外傷登錄系統，各醫院採自願性自主參與，直至現今，以逾十餘年，仍是如此！詳實的資料建立取決於訓練有術的外傷登錄師。 <br/> 外傷登錄師必須通過嚴謹的培訓，才能取得證照，但可惜的是，不管是登錄系統的建立或是登錄師的訓練，皆由學會一手統籌，不見政府蹤影。 當國際社會已經成功地從外傷歷史資料萃取洞見時，我們政府卻連事故傷害流行病學資料也無法得知，更遑論要進行問題發掘及對策改善。 <br/> 外傷登錄師必須能全盤通透病人到院前、住院中以及出院後所有醫療處置，並詳細盤查所有檢查報告、病歷資料，依AIS評分標準，給予該病人最確實的ISS，此工作繁重，有時就像偵探一樣，得用放大鏡檢視所有的蛛絲馬跡，就是不肯放過任何一個小傷；有時也得打破砂鍋問到底，就是要確認傷害的程度。 <br/> 這種差事吃力不討好，要有豐富的醫學知識與臨床工作經驗，還要能善於溝通，但站在醫院的立場上，只不過是個登打資料的人，為了減少人事成本，往往以最低階的行政人員薪資聘用，或是以計畫方式一年一聘，有的醫院則是以現有人力來兼職，不穩定的人力流動，大大影響外傷登錄的資料品質。 <br/> 再者，外傷登錄系統的維護經費龐大，學會已無能力負擔，目前只剩下電腦單機版可使用，所有資料必須一一登打，無法與醫院資訊做串接，耗時又耗力，且無法減少人為疏失。欄位也是十幾年前的設計，有些已不符現況，即使輸入資料，該資料也無法分析。在資訊爆炸的時代裡，很難想像這種狀況還發生在台灣！ <br/> 要計算外傷嚴重分數(ISS)憑藉於簡易外傷分數(AIS)。為了解交通事故造成的外傷型態與嚴重度，美國汽車醫學發展協會在1969年推出外傷嚴重度計算標準(AIS)，以做為改善汽車安全設計之依據。此版本經過多年修訂，最新版本為AIS2015年版。 <br/> 但您不可不知的是，衛生福利部中央健康保險署公告的版本是西元1990年發布的，要與世界接軌還望塵莫及呢！在這種輪迴旋渦裡，資料庫中充斥著不可盡信的資料。外傷登錄系統最終只剩下醫院評鑑時可以交代的功能了！</p>",
@@ -512,6 +525,7 @@ document.querySelector('#help_data').onclick = ()=>{
         animation: false,
         customClass: 'animated fadeIn',
         showCloseButton: true,
+        type: 'info',
         width:'80%',
         title:'資料整理的痛苦',
         html:"<p class='popupText textWithPadding'>資料的取得是先由外傷醫學會發函給各家醫院，有些醫院很快速就回覆了，有些醫院則要一層又一層地請示過，最後回覆因為OOXX的原因，所以不便提供… <br/> 原發函給重度與中度急救責任醫院，共計47家，最後有33家醫院提供資料，但資料符合最低要求者只剩30家醫院。 <br/> 著手清洗這些資料，是痛苦的開始，也是最痛苦的時刻！這些資料來自30家不同的醫院，雖然學會有提供外傷登錄單機版供使用，但有些醫院鑑於個別因素，紛紛發展自己的登錄系統，而這些登錄系統匯出的欄位格式卻非當初學會所規範的樣式。 <br/> 光是時間格式，就有好幾種，有的欄位名稱取的名稱還不一樣，這時就得跟資料提供的醫院聯繫，以釐清欄位定義。這來來回回，真是勞心勞力啊！忍不住想跟所有的醫院大聲吶喊「資料欄位定義與格式的一致性，是相當重要的啊！」 <br/>  在整理資料的過程中，仍會看見有異常資料或遺漏的部分，面對這樣的資料，就只能忍痛捨棄。登錄一件完整的案件，快則30分鐘，慢則一小時，甚至耗時半天，而以重度急救責任醫院來說，一天收案約10件，日積月累之下，沉重的工作負荷，能理解外傷登錄師的辛苦。 <br/> 若登錄系統能與醫院系統接駁，自然可減少重工，也可降低人為錯誤，在資料的品質上就可大大提升！工欲善其事，必先利其器，有好的登錄系統，就是好的開始。政府可以花大把銀子建置癌症登錄系統，是否可以撥一些零頭來支持辛苦耕耘的外傷登錄系統？！</p>",
@@ -561,6 +575,7 @@ document.querySelector('#help_prevent').onclick = ()=>{
         animation: false,
         customClass: 'animated fadeIn',
         showCloseButton: true,
+        type: 'info',
         width:'80%',
         title:'傷害預防',
         html:preventHtml,
