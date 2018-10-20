@@ -37,8 +37,43 @@
 
 		<div class="radarChart"></div>
 
+		<div id="app">
+			<input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
+			<label for="jack">南</label>
+			<input type="checkbox" id="john" value="John" v-model="checkedNames">
+			<label for="john">John</label>
+			<input type="checkbox" id="mike" value="Mike" v-model="checkedNames">
+			<label for="mike">Mike</label>
+			<br>
+			<input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
+			<label for="jack">南</label>
+			<input type="checkbox" id="john" value="John" v-model="checkedNames">
+			<label for="john">John</label>
+			<input type="checkbox" id="mike" value="Mike" v-model="checkedNames">
+			<label for="mike">Mike</label>
+			<br>
+			<span>Checked names: {{ checkedNames }}</span>
+		</div>
+
 		<script src="radarchart.js"></script>	
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 		<script>
+
+			var vm = new Vue({
+				el: '#app',
+				data: {
+					checkedNames: []
+				}
+			})
+			// 要先修好api,照著圖片,最後做好filter按鈕,發出對應的request
+			// var payload = {
+			// 		"gender":parseInt(answerArray[1]),
+			// 		"age":parseInt(answerArray[2]),
+			// 		"arrival_2":answerArray[3],
+			// 		"ecode_type": answerArray[0]
+			// }
+			// var data = JSON.stringify(payload);
+			// console.log(data);
       
       /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
       
@@ -49,10 +84,53 @@
 			var margin = {top: 100, right: 100, bottom: 100, left: 100},
 				width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
 				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
-					
+
+
+			////////////////////////////////////////////////////////////// 
+			/////////////////////// API Setting ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+
+			const api_server_location = "http://localhost:5000/api";
+			
+			function processStatus(response) {
+					// 狀態 "0" 是處理本地檔案 (例如Cordova/Phonegap等等)
+					if (response.status === 200 || response.status === 0) {
+							return Promise.resolve(response)
+					} else {
+							return Promise.reject(new Error(response.statusText))
+					}
+			}
+
+			const getCalDataFromAPI = ()=>{
+					return new Promise((resolve,reject)=>{
+							fetch(api_server_location+"/models/cal",{
+									headers: {
+											'Accept': 'application/json',
+											'Content-Type': 'application/json'
+									},
+									method: "POST",
+									body: data
+							})
+									.then(processStatus)
+									.then(function (response) {
+											response.json()
+													.then((data)=>{
+															resolve(data);
+													}).catch((err)=>{
+															reject(err)
+													});
+									})
+									.catch(function (err) {
+											reject(err)
+									});
+					});
+			}
+
 			////////////////////////////////////////////////////////////// 
 			////////////////////////// Data ////////////////////////////// 
 			////////////////////////////////////////////////////////////// 
+
 
 			var data = [
 					  [
@@ -63,6 +141,21 @@
 								
 					  ]
 					];
+
+			
+			// getCalDataFromAPI()
+			// 	.then(function (apidata) {
+			// 			console.log("cal");
+			// 			console.log(apidata);
+					
+
+    	// 	})
+			// 	.catch(function (err) {
+			// 			console.log('GetDataWrong', err);
+			// 			// reject(err)
+			// 	});
+
+
 			////////////////////////////////////////////////////////////// 
 			//////////////////// Draw the Chart ////////////////////////// 
 			////////////////////////////////////////////////////////////// 
