@@ -11,6 +11,7 @@ import './calculate_Risk';
 import './popupHelpWindows';
 import './popupStory';
 import './bookIcon';
+import './workImgSlide';
 
 // popupPlotly initial call
 popupPlotly.popupPlotlyT1();
