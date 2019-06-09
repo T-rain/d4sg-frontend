@@ -262,27 +262,21 @@ document.querySelectorAll('.popup_ohca').forEach(ele=>{
 
 document.querySelectorAll('.iss_book').forEach(ele=>{
     ele.onclick = function(){
-        swal.setDefaults({
-            type: 'question',
-            title: '',
-            text: '',
-            animation: false,
-            customClass: 'animated fadeIn',
-            showCloseButton: true,
-            showCancelButton: true,
-            showConfirmButton: true,
-            cancelButtonText: '上一個',
-            confirmButtonText: '下一個',
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#28a745',
-            // progressSteps: ['1', '2', '3','4','5','6']
-        })
-        
-
-
-        
-
-
+        // swal.setDefaults({
+        //     type: 'question',
+        //     title: '',
+        //     text: '',
+        //     animation: false,
+        //     customClass: 'animated fadeIn',
+        //     showCloseButton: true,
+        //     showCancelButton: true,
+        //     showConfirmButton: true,
+        //     cancelButtonText: '上一個',
+        //     confirmButtonText: '下一個',
+        //     confirmButtonColor: '#3085d6',
+        //     cancelButtonColor: '#28a745',
+        //     // progressSteps: ['1', '2', '3','4','5','6']
+        // })
 
         let currentContext = 0;
         let books = [
@@ -292,9 +286,16 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
                 html: '經醫師診斷確定所罹患的傷病是屬於公告之重大傷病時，可檢具文件郵寄或親自送件，向健保分區業務組申請重大傷病證明。民眾對重大傷病有疑義，可洽詢轄區健保分區業務組(<a href="https://goo.gl/WE3Shi" target="_blank">https://goo.gl/WE3Shi</a>)',
                 animation: false,
                 customClass: 'animated fadeIn',
+
+                type:'question',
+                showCloseButton:true,
+                showConfirmButton: true,
+                confirmButtonText: '下一個',
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#28a745',
             },
             {
-                title: '<p style="margin:0 auto">第一次申請重大傷病卡</p><p style="margin-top: 5px;margin-bottom: 0;">需要附上什麼資料?</p>',
+                title: '第一次申請重大傷病卡<br/>需要附上什麼資料?',
                 html: `<p style="text-align:left">(一) 重大傷病證明申請書<br/>
                 (二) 三十日內開立之診斷證明書<br/>
                 (三) 身分證明文件(正反面影本，兒童得以戶口名簿代替)
@@ -302,34 +303,76 @@ document.querySelectorAll('.iss_book').forEach(ele=>{
                 (四) 病歷摘要或檢查報告等相關資料</p>`,
                 animation: false,
                 customClass: 'animated fadeIn',
+
+                type:'question',
+                showCloseButton:true,
+                showCancelButton: true,
+                cancelButtonText: '上一個',
+                showConfirmButton: true,
+                confirmButtonText: '下一個',
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#28a745',
             },
             {
                 title: '重大傷病卡多久可以拿到？',
                 text: '如果診斷病名範圍明確者，可當日核發。要是診斷病名範圍不明確者或特殊疾病等狀況，需由健保署醫師專業審查通過後才會寄發，大概需要10個工作日。',
                 animation: false,
                 customClass: 'animated fadeIn',
+
+                type:'question',
+                showCloseButton:true,
+                showCancelButton: true,
+                cancelButtonText: '上一個',
+                showConfirmButton: true,
+                confirmButtonText: '下一個',
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#28a745',
             },
             {
                 title: '重大傷病申請後是不是有一張卡？',
                 text: '沒有另外一張卡，直接記載在健保卡裡面，健保署在94年3月起為預防掉卡的困擾，已將重大傷病卡的資料寫入在健保卡內以方便民眾就醫(精神疾病及愛滋病採取自由註記制度)',
                 animation: false,
                 customClass: 'animated fadeIn',
+
+                type:'question',
+                showCloseButton:true,
+                showCancelButton: true,
+                cancelButtonText: '上一個',
+                showConfirmButton: true,
+                confirmButtonText: '下一個',
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#28a745',
             },
             {
-                title: '<p style="margin:0 auto">有重大傷病卡要怎麼使用？</p><p style="margin-top: 5px;margin-bottom: 0;">有什麼優惠？</p>',
+                title: '有重大傷病卡要怎麼使用？<br/>有什麼優惠？',
                 text: '持健保卡至醫療院所看診時，醫療院所讀取健保卡重大傷病註記，必須配合醫師卡才能讀取重大傷病代碼、有效起迄日期，經醫師診斷當次就醫確屬重大傷病或其相關治療，才可以免繳部分負擔費用',
                 animation: false,
                 customClass: 'animated fadeIn',
+
+                type:'question',
+                showCloseButton:true,
+                showCancelButton: true,
+                cancelButtonText: '上一個',
+                showConfirmButton: true,
+                confirmButtonText: '下一個',
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#28a745',
             },
             {
                 showConfirmButton: false,
-                title: '<p style="margin:0 auto">有重大傷病卡後</p><p style="margin-top: 5px;margin-bottom: 0;">在就醫上還有什麼要注意的嗎？</p>',
+                title: '有重大傷病卡後<br/>在就醫上還有什麼要注意的嗎？',
                 text: '就醫時，務必主動提醒醫師「我有重大傷病」，請醫師協助讀取健保卡資訊',
                 animation: false,
                 customClass: 'animated fadeIn',
+
+                type:'question',
+                showCloseButton:true,
+                showCancelButton: true,
+                cancelButtonText: '上一個',
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#28a745',
             },
         ];
-
 
         function swalISSbookAt(pageNumber){
             swal(

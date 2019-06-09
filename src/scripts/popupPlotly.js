@@ -143,7 +143,7 @@ const popupPlotlyD2 = ()=>{
         
                 let plotlyData = [data];
                 let layout = {
-                    title: "105年急診就診率",
+                    title: "106年急診就診率",
                     autosize: true,
                     xaxis:{
                         domain:[0.4,1],
@@ -431,7 +431,7 @@ const popupPlotlyD6 = ()=>{
         
                 let plotlyData = [data];
                 let layout = {
-                    title: "105年急診費用",
+                    title: "106年急診費用",
                     autosize: true,
                     xaxis:{
                         domain:[0.4,1],
@@ -486,7 +486,7 @@ const popupPlotlyD7 = ()=>{
         
                 let plotlyData = [data];
                 let layout = {
-                    title: "105年急診件數",
+                    title: "106年急診件數",
                     autosize: true,
                     xaxis:{
                         domain:[0.4,1],
