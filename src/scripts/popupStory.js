@@ -19,7 +19,7 @@ document.querySelector('#popupStory').onclick = ()=>{
         // <img style="width:100%" src="./imgs/story/story8.jpg" alt="">
         // <img style="width:100%" src="./imgs/story/story9.jpg" alt="">
         // <img style="width:100%" src="./imgs/story/story10.jpg" alt="">`,
-        html:'<object data="drauma.pdf#toolbar=0" type="application/pdf" width="100%" height="400px"><embed src="drauma.pdf#toolbar=0" type="application/pdf"/></object>',
+        html:'<iframe src="drauma.pdf#toolbar=0" frameborder="0" width="100%" height="400px"></iframe>',
         confirmButtonText: '關閉',
     })
 };

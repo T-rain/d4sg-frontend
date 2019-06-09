@@ -128,4 +128,5 @@ gulp.task('server', function() {
 // gulp.task('default', ['scripts', 'styles', 'images','icons','html','watch','server']);
 gulp.task('default', ['watch','server']);
 gulp.task('compile', ['scripts']);
-gulp.task('build', ['images','scripts', 'styles','html']);
+gulp.task('build', ['scripts', 'styles','html']);
+gulp.task('builds', ['images','scripts', 'styles','html']);
