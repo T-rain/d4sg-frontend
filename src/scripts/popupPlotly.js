@@ -120,16 +120,17 @@ const popupPlotlyD2 = ()=>{
         .then(function (data) {
             ds.dataStatus.d2 = true;
             const draw_plotly_d2 = (_ele)=>{
-                data.x = data.x.reverse();
-                data.y = data.y.reverse();
+                data.x = data.x.slice(0,10).reverse();
+                data.y = data.y.slice(0,10).reverse();
                 data.y = data.y.map(text=>text+"  ");
                 data.type='bar';
-                let colorArray = ['rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                let colorArray = [
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
@@ -407,24 +408,27 @@ const popupPlotlyD6 = ()=>{
     model.getD6Data()
         .then(function (data) {
             ds.dataStatus.d6 = true;
-
             const draw_plotly_d6 = (_ele)=>{
-                data.x = data.x.reverse();
-                data.y = data.y.reverse();
+                // data.x = data.x.reverse();
+                data.x = data.x.slice(0,10).reverse();
+                data.y = data.y.slice(0,10).reverse();
+                // data.y = data.y.reverse();
+                console.log(data)
                 data.type='bar';
-                let colorArray = ['rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                let colorArray = [
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(222,45,38,0.8)', 'rgba(204,204,204,1)']
                 data.marker= {
-                    color:colorArray,
+                    color: colorArray,
                     width: 1
                 }
                 data.orientation='h'
@@ -462,17 +466,17 @@ const popupPlotlyD7 = ()=>{
     model.getD7Data()
         .then(function (data) {
             ds.dataStatus.d7 = true;
-
             const draw_plotly_d7 = (_ele)=>{
-                data.x = data.x.reverse();
-                data.y = data.y.reverse();
+                data.x = data.x.slice(0,10).reverse();
+                data.y = data.y.slice(0,10).reverse();
                 data.type='bar';
-                let colorArray = ['rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
-                'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                let colorArray = [
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+                // 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
                 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
