@@ -19,7 +19,7 @@ document.querySelector('#popupStory').onclick = ()=>{
         // <img style="width:100%" src="./imgs/story/story8.jpg" alt="">
         // <img style="width:100%" src="./imgs/story/story9.jpg" alt="">
         // <img style="width:100%" src="./imgs/story/story10.jpg" alt="">,
-        html:'<iframe src="./drauma.pdf#toolbar=0" width="100%" height="400px" frameborder="0"></iframe>',
+        html:'<iframe src="./drauma0612.pdf#toolbar=0" width="100%" height="400px" frameborder="0"></iframe>',
         // html:'<embed src="/drauma.pdf#toolbar=0" type="application/pdf" width="100%" height="400px"></embed>',
         confirmButtonText: '關閉',
     })
